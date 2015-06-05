@@ -123,10 +123,10 @@ int color abs__bright_foreground_holo_light 0x7f090005
 int color abs__bright_foreground_inverse_holo_dark 0x7f090006
 int color abs__bright_foreground_inverse_holo_light 0x7f090007
 int color abs__holo_blue_light 0x7f090008
-int color abs__primary_text_disable_only_holo_dark 0x7f090017
-int color abs__primary_text_disable_only_holo_light 0x7f090018
-int color abs__primary_text_holo_dark 0x7f090019
-int color abs__primary_text_holo_light 0x7f09001a
+int color abs__primary_text_disable_only_holo_dark 0x7f090018
+int color abs__primary_text_disable_only_holo_light 0x7f090019
+int color abs__primary_text_holo_dark 0x7f09001a
+int color abs__primary_text_holo_light 0x7f09001b
 int color actionbar_end_color 0x7f090009
 int color actionbar_start_color 0x7f09000a
 int color background_color 0x7f09000b
@@ -141,6 +141,7 @@ int color owncloud_blue_bright 0x7f090013
 int color setup_text_hint 0x7f090014
 int color setup_text_typed 0x7f090015
 int color textColor 0x7f090016
+int color textcolorhint 0x7f090017
 int dimen abs__action_bar_default_height 0x7f0b0000
 int dimen abs__action_bar_icon_vertical_padding 0x7f0b0001
 int dimen abs__action_bar_subtitle_bottom_margin 0x7f0b0002

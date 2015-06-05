@@ -583,10 +583,10 @@ containing a value of this type.
         public static final int abs__bright_foreground_inverse_holo_dark=0x7f090006;
         public static final int abs__bright_foreground_inverse_holo_light=0x7f090007;
         public static final int abs__holo_blue_light=0x7f090008;
-        public static final int abs__primary_text_disable_only_holo_dark=0x7f090017;
-        public static final int abs__primary_text_disable_only_holo_light=0x7f090018;
-        public static final int abs__primary_text_holo_dark=0x7f090019;
-        public static final int abs__primary_text_holo_light=0x7f09001a;
+        public static final int abs__primary_text_disable_only_holo_dark=0x7f090018;
+        public static final int abs__primary_text_disable_only_holo_light=0x7f090019;
+        public static final int abs__primary_text_holo_dark=0x7f09001a;
+        public static final int abs__primary_text_holo_light=0x7f09001b;
         public static final int actionbar_end_color=0x7f090009;
         public static final int actionbar_start_color=0x7f09000a;
         public static final int background_color=0x7f09000b;
@@ -601,6 +601,7 @@ containing a value of this type.
         public static final int setup_text_hint=0x7f090014;
         public static final int setup_text_typed=0x7f090015;
         public static final int textColor=0x7f090016;
+        public static final int textcolorhint=0x7f090017;
     }
     public static final class dimen {
         public static final int abs__action_bar_default_height=0x7f0b0000;

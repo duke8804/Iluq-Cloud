@@ -27,8 +27,8 @@
     
     
     <!-- Colors -->
-    <color name="login_background_color">#FFFFFF</color>
-    <color name="login_logo_background_color">#FFFFFF</color>
+    <color name="login_background_color">#0099CC</color>
+    <color name="login_logo_background_color">#0099CC</color>
     <color name="background_color">#F7F7F7</color>
     <color name="actionbar_start_color">#222</color>
     <color name="actionbar_end_color">#222</color>

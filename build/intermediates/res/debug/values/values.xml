@@ -60,7 +60,7 @@
     <color name="background_color">#F7F7F7</color>
     <!-- From: file:/C:/Users/kenny/Projects/Iluq-Cloud/res/values/colors.xml -->
     <eat-comment/>
-    <color name="button_background_color">#BE1E2D</color>
+    <color name="button_background_color">#FFFFFF</color>
     <!-- From: file:/C:/Users/kenny/Projects/Iluq-Cloud/res/values/setup.xml -->
     <eat-comment/>
     <color name="button_text_color">#000000</color>
@@ -71,8 +71,8 @@
     <color name="list_item_lastmod_and_filesize_text">#989898</color>
     <!-- From: file:/C:/Users/kenny/Projects/Iluq-Cloud/res/values/setup.xml -->
     <eat-comment/>
-    <color name="login_background_color">#FFFFFF</color>
-    <color name="login_logo_background_color">#FFFFFF</color>
+    <color name="login_background_color">#0099CC</color>
+    <color name="login_logo_background_color">#0099CC</color>
     <!-- From: file:/C:/Users/kenny/Projects/Iluq-Cloud/res/values/colors.xml -->
     <eat-comment/>
     <color name="owncloud_blue_bright">#00ddff</color>
@@ -83,6 +83,7 @@
     <!-- From: file:/C:/Users/kenny/Projects/Iluq-Cloud/res/values/colors.xml -->
     <eat-comment/>
     <color name="textColor">#303030</color>
+    <color name="textcolorhint">#B8B8B8</color>
     <declare-styleable name="ActionEditText"><attr format="string" name="optionOneString"/><attr format="color" name="optionOneColor"/><attr format="string" name="optionTwoString"/><attr format="color" name="optionTwoColor"/><attr format="string" name="onBadgeClick"/></declare-styleable>
     <declare-styleable name="SherlockActionBar"><attr name="navigationMode"><enum name="normal" value="0"/><enum name="listMode" value="1"/><enum name="tabMode" value="2"/></attr><attr name="displayOptions"><flag name="useLogo" value="0x1"/><flag name="showHome" value="0x2"/><flag name="homeAsUp" value="0x4"/><flag name="showTitle" value="0x8"/><flag name="showCustom" value="0x10"/><flag name="disableHome" value="0x20"/></attr><attr format="string" name="title"/><attr format="string" name="subtitle"/><attr name="titleTextStyle"/><attr name="subtitleTextStyle"/><attr format="reference" name="icon"/><attr format="reference" name="logo"/><attr name="divider"/><attr name="background"/><attr format="reference|color" name="backgroundStacked"/><attr name="backgroundSplit"/><attr format="reference" name="customNavigationLayout"/><attr name="height"/><attr format="reference" name="homeLayout"/><attr format="reference" name="progressBarStyle"/><attr format="reference" name="indeterminateProgressStyle"/><attr format="dimension" name="progressBarPadding"/><attr format="dimension" name="itemPadding"/></declare-styleable>
     <declare-styleable name="SherlockActionMenuItemView"><attr name="android:minWidth"/></declare-styleable>
@@ -129,7 +130,7 @@
     <eat-comment/>
     <string name="about_android">%1$s Android App</string>
     <string name="about_title">About</string>
-    <string name="about_version">version %1$s</string>
+    <string name="about_version">Version %1$s</string>
     <!-- From: file:/C:/Users/kenny/Projects/Iluq-Cloud/build/intermediates/exploded-aar/Iluq-Cloud/libs@actionbarsherlock_lib/unspecified/res/values/abs__strings.xml -->
     <eat-comment/>
     <string name="abs__action_bar_home_description">Navigate home</string>

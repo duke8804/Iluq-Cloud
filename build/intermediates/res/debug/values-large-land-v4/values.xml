@@ -6,4 +6,5 @@
     <!-- From: file:/C:/Users/kenny/Projects/Iluq-Cloud/res/values-large-land/colors.xml -->
     <eat-comment/>
     <color name="button_background_color">#BE1E2D</color>
+    <color name="textcolorhint">#B8B8B8</color>
 </resources>
