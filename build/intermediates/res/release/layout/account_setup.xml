@@ -81,7 +81,7 @@
 				android:drawablePadding="5dp"
 				android:paddingRight="55dp"
 				android:contentDescription="@string/auth_host_address"
-                android:textColorHint="#BE1E2D">
+                android:textColorHint="@color/textcolorhint">
 				<requestFocus />
 			</EditText>
 			<ImageButton
@@ -110,7 +110,7 @@
             android:gravity="center_vertical"
             android:text="@string/auth_testing_connection"
             android:contentDescription="@string/auth_testing_connection"
-            android:textColor="#BE1E2D" />
+            android:textColor="#FFFFFF" />
 
         <CheckBox
             android:id="@+id/oauth_onOff_check"
@@ -154,7 +154,7 @@
             android:hint="@string/auth_username"
             android:inputType="textNoSuggestions"
             android:contentDescription="@string/auth_username"
-            android:textColorHint="#BE1E2D" />
+            android:textColorHint="@color/textcolorhint" />
 
 		<EditText
 		    android:id="@+id/account_password"
@@ -165,8 +165,7 @@
 		    android:hint="@string/auth_password"
 		    android:inputType="textPassword"
 		    android:contentDescription="@string/auth_password"
-            android:textColorHighlight="#BE1E2D"
-            android:textColorHint="#BE1E2D" />
+            android:textColorHint="@color/textcolorhint" />
         
         <TextView
             android:id="@+id/auth_status_text"
@@ -178,7 +177,7 @@
             android:gravity="center_vertical"
             android:text="@string/auth_unauthorized"
             android:contentDescription="@string/auth_unauthorized"
-            android:textColor="#BE1E2D" />
+            android:textColor="#FFFFFF" />
 
         <Button
             android:id="@+id/buttonOK"
@@ -189,8 +188,8 @@
             android:onClick="onOkClick"
             android:text="@string/setup_btn_connect"
             android:contentDescription="@string/setup_btn_connect"
-            android:background="@color/button_background_color"
-            android:textColor="#fff" />
+            android:textColor="#FFFFFF"
+            android:background="#0099CC" />
 
         <Button
             android:id="@+id/welcome_link"
@@ -201,9 +200,9 @@
             android:paddingBottom="5dp"
             android:paddingTop="5dp"
             android:text="@string/auth_register"
-            android:textColor="#0000FF"
+            android:textColor="#ffffff"
             android:contentDescription="@string/auth_register"/>
 
     </LinearLayout>
 
-</ScrollView><!-- From: file:/C:/Users/kenny/Projects/Kryptashare/res/layout/account_setup.xml -->
+</ScrollView><!-- From: file:/C:/Users/kenny/Projects/Iluq-Cloud/res/layout/account_setup.xml -->

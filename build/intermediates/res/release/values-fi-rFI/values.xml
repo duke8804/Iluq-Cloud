@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/C:/Users/kenny/Projects/Kryptashare/res/values-fi-rFI/strings.xml -->
+    <!-- From: file:/C:/Users/kenny/Projects/Iluq-Cloud/res/values-fi-rFI/strings.xml -->
     <eat-comment/>
     <string-array name="actionbar_sortby">
     <item>A-Ö</item>
     <item>Uusimmasta vanhimpaan</item>
   </string-array>
-    <!-- From: file:/C:/Users/kenny/Projects/Kryptashare/res/values-fi-rFI/colors.xml -->
+    <!-- From: file:/C:/Users/kenny/Projects/Iluq-Cloud/res/values-fi-rFI/colors.xml -->
     <eat-comment/>
-    <color name="button_background_color">#BE1E2D</color>
-    <!-- From: file:/C:/Users/kenny/Projects/Kryptashare/res/values-fi-rFI/strings.xml -->
+    <color name="button_background_color">#0099CC</color>
+    <color name="textcolorhint">#B8B8B8</color>
+    <!-- From: file:/C:/Users/kenny/Projects/Iluq-Cloud/res/values-fi-rFI/strings.xml -->
     <eat-comment/>
     <string name="about_android">%1$s-Android-sovellus</string>
     <string name="about_title">Tietoja</string>

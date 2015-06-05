@@ -47,4 +47,4 @@ the Action Bar enabled overlaying application content.
                android:layout_height="wrap_content"
                android:layout_below="@id/abs__action_bar_container" />
 </RelativeLayout>
-<!-- From: file:/C:/Users/kenny/Projects/Kryptashare/build/intermediates/exploded-aar/Kryptashare/libs@actionbarsherlock_lib/unspecified/res/layout-xlarge/abs__screen_action_bar_overlay.xml -->
+<!-- From: file:/C:/Users/kenny/Projects/Iluq-Cloud/build/intermediates/exploded-aar/Iluq-Cloud/libs@actionbarsherlock_lib/unspecified/res/layout-xlarge/abs__screen_action_bar_overlay.xml -->

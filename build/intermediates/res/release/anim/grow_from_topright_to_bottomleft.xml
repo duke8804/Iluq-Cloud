@@ -29,4 +29,4 @@
 		android:fromAlpha="0.0" android:toAlpha="1.0"
 		android:duration="@android:integer/config_shortAnimTime"
 	/>
-</set><!-- From: file:/C:/Users/kenny/Projects/Kryptashare/res/anim/grow_from_topright_to_bottomleft.xml -->
+</set><!-- From: file:/C:/Users/kenny/Projects/Iluq-Cloud/res/anim/grow_from_topright_to_bottomleft.xml -->

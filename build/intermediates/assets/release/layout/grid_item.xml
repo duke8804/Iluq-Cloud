@@ -16,7 +16,7 @@
   along with this program.  If not, see <http://www.gnu.org/licenses/>.
   
 -->
-<com.kryptashare.android.ui.SquareLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<com.iluq_cloud.android.ui.SquareLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/ListItemLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -99,4 +99,4 @@
         android:textColor="@color/textColor"
         android:textSize="16dip" />
 
-</com.kryptashare.android.ui.SquareLinearLayout>
+</com.iluq_cloud.android.ui.SquareLinearLayout>

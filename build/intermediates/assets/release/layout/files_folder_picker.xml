@@ -40,8 +40,8 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="@string/common_cancel"
-            android:background="#BE1E2D"
-            android:textColor="#fff" />
+            android:textColor="#FFFFFF"
+            android:background="@color/button_background_color" />
 
 		<Button
 		    android:id="@+id/folder_picker_btn_choose"
@@ -49,8 +49,8 @@
 		    android:layout_height="wrap_content"
 		    android:layout_weight="1"
 		    android:text="@string/folder_picker_choose_button_text"
-            android:background="#BE1E2D"
-            android:textColor="#fff" />
+            android:background="@color/button_background_color"
+            android:textColor="#FFFFFF" />
 
 	</LinearLayout>
 

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- From: file:/C:/Users/kenny/Projects/Kryptashare/res/values/strings.xml -->
+    <!-- From: file:/C:/Users/kenny/Projects/Iluq-Cloud/res/values/strings.xml -->
     <eat-comment/>
     <string-array name="actionbar_sortby">
     	<item>A-Z</item>
@@ -8,7 +8,7 @@
     	<!-- TODO re-enable when server-side folder size calculation is available   
     	<item>Biggest - Smallest</item>  -->
     </string-array>
-    <!-- From: file:/C:/Users/kenny/Projects/Kryptashare/build/intermediates/exploded-aar/Kryptashare/libs@actionbarsherlock_lib/unspecified/res/values/abs__attrs.xml -->
+    <!-- From: file:/C:/Users/kenny/Projects/Iluq-Cloud/build/intermediates/exploded-aar/Iluq-Cloud/libs@actionbarsherlock_lib/unspecified/res/values/abs__attrs.xml -->
     <eat-comment/>
     <attr format="reference|color" name="background"/>
     <attr format="reference|color" name="backgroundSplit"/>
@@ -16,33 +16,33 @@
     <attr format="dimension" name="height"/>
     <attr format="reference" name="subtitleTextStyle"/>
     <attr format="reference" name="titleTextStyle"/>
-    <!-- From: file:/C:/Users/kenny/Projects/Kryptashare/build/intermediates/exploded-aar/Kryptashare/libs@actionbarsherlock_lib/unspecified/res/values/abs__bools.xml -->
+    <!-- From: file:/C:/Users/kenny/Projects/Iluq-Cloud/build/intermediates/exploded-aar/Iluq-Cloud/libs@actionbarsherlock_lib/unspecified/res/values/abs__bools.xml -->
     <eat-comment/>
     <bool name="abs__action_bar_embed_tabs">false</bool>
     <bool name="abs__action_bar_expanded_action_views_exclusive">true</bool>
-    <!-- From: file:/C:/Users/kenny/Projects/Kryptashare/build/intermediates/exploded-aar/Kryptashare/libs@actionbarsherlock_lib/unspecified/res/values/abs__config.xml -->
+    <!-- From: file:/C:/Users/kenny/Projects/Iluq-Cloud/build/intermediates/exploded-aar/Iluq-Cloud/libs@actionbarsherlock_lib/unspecified/res/values/abs__config.xml -->
     <eat-comment/>
     <bool name="abs__config_actionMenuItemAllCaps">true</bool>
     <bool name="abs__config_allowActionMenuItemTextWithIcon">false</bool>
     <bool name="abs__config_showMenuShortcutsWhenKeyboardPresent">false</bool>
-    <!-- From: file:/C:/Users/kenny/Projects/Kryptashare/build/intermediates/exploded-aar/Kryptashare/libs@actionbarsherlock_lib/unspecified/res/values/abs__bools.xml -->
+    <!-- From: file:/C:/Users/kenny/Projects/Iluq-Cloud/build/intermediates/exploded-aar/Iluq-Cloud/libs@actionbarsherlock_lib/unspecified/res/values/abs__bools.xml -->
     <eat-comment/>
     <bool name="abs__split_action_bar_is_narrow">true</bool>
-    <!-- From: file:/C:/Users/kenny/Projects/Kryptashare/res/values/setup.xml -->
+    <!-- From: file:/C:/Users/kenny/Projects/Iluq-Cloud/res/values/setup.xml -->
     <eat-comment/>
     <bool name="feedback_enabled">true</bool>
     <bool name="help_enabled">false</bool>
     <bool name="imprint_enabled">false</bool>
-    <!-- From: file:/C:/Users/kenny/Projects/Kryptashare/res/values/bools.xml -->
+    <!-- From: file:/C:/Users/kenny/Projects/Iluq-Cloud/res/values/bools.xml -->
     <eat-comment/>
     <bool name="large_land_layout">false</bool>
-    <!-- From: file:/C:/Users/kenny/Projects/Kryptashare/res/values/setup.xml -->
+    <!-- From: file:/C:/Users/kenny/Projects/Iluq-Cloud/res/values/setup.xml -->
     <eat-comment/>
     <bool name="multiaccount_support">true</bool>
     <bool name="recommend_enabled">true</bool>
     <bool name="show_server_url_input">true</bool>
     <bool name="show_welcome_link">true</bool>
-    <!-- From: file:/C:/Users/kenny/Projects/Kryptashare/build/intermediates/exploded-aar/Kryptashare/libs@actionbarsherlock_lib/unspecified/res/values/abs__colors.xml -->
+    <!-- From: file:/C:/Users/kenny/Projects/Iluq-Cloud/build/intermediates/exploded-aar/Iluq-Cloud/libs@actionbarsherlock_lib/unspecified/res/values/abs__colors.xml -->
     <eat-comment/>
     <color name="abs__background_holo_dark">#ff000000</color>
     <color name="abs__background_holo_light">#fff3f3f3</color>
@@ -53,36 +53,37 @@
     <color name="abs__bright_foreground_inverse_holo_dark">@color/abs__bright_foreground_holo_light</color>
     <color name="abs__bright_foreground_inverse_holo_light">@color/abs__bright_foreground_holo_dark</color>
     <color name="abs__holo_blue_light">#ff33b5e5</color>
-    <!-- From: file:/C:/Users/kenny/Projects/Kryptashare/res/values/setup.xml -->
+    <!-- From: file:/C:/Users/kenny/Projects/Iluq-Cloud/res/values/setup.xml -->
     <eat-comment/>
     <color name="actionbar_end_color">#222</color>
     <color name="actionbar_start_color">#222</color>
     <color name="background_color">#F7F7F7</color>
-    <!-- From: file:/C:/Users/kenny/Projects/Kryptashare/res/values/colors.xml -->
+    <!-- From: file:/C:/Users/kenny/Projects/Iluq-Cloud/res/values/colors.xml -->
     <eat-comment/>
-    <color name="button_background_color">#BE1E2D</color>
-    <!-- From: file:/C:/Users/kenny/Projects/Kryptashare/res/values/setup.xml -->
+    <color name="button_background_color">#FFFFFF</color>
+    <!-- From: file:/C:/Users/kenny/Projects/Iluq-Cloud/res/values/setup.xml -->
     <eat-comment/>
     <color name="button_text_color">#000000</color>
-    <!-- From: file:/C:/Users/kenny/Projects/Kryptashare/res/values/colors.xml -->
+    <!-- From: file:/C:/Users/kenny/Projects/Iluq-Cloud/res/values/colors.xml -->
     <eat-comment/>
     <color name="filelist_icon_backgorund">#DDDDDD</color>
     <color name="list_divider_background">#fff0f0f0</color>
     <color name="list_item_lastmod_and_filesize_text">#989898</color>
-    <!-- From: file:/C:/Users/kenny/Projects/Kryptashare/res/values/setup.xml -->
+    <!-- From: file:/C:/Users/kenny/Projects/Iluq-Cloud/res/values/setup.xml -->
     <eat-comment/>
-    <color name="login_background_color">#FFFFFF</color>
-    <color name="login_logo_background_color">#FFFFFF</color>
-    <!-- From: file:/C:/Users/kenny/Projects/Kryptashare/res/values/colors.xml -->
+    <color name="login_background_color">#0099CC</color>
+    <color name="login_logo_background_color">#0099CC</color>
+    <!-- From: file:/C:/Users/kenny/Projects/Iluq-Cloud/res/values/colors.xml -->
     <eat-comment/>
     <color name="owncloud_blue_bright">#00ddff</color>
-    <!-- From: file:/C:/Users/kenny/Projects/Kryptashare/res/values/styles.xml -->
+    <!-- From: file:/C:/Users/kenny/Projects/Iluq-Cloud/res/values/styles.xml -->
     <eat-comment/>
     <color name="setup_text_hint">#777777</color>
     <color name="setup_text_typed">#000000</color>
-    <!-- From: file:/C:/Users/kenny/Projects/Kryptashare/res/values/colors.xml -->
+    <!-- From: file:/C:/Users/kenny/Projects/Iluq-Cloud/res/values/colors.xml -->
     <eat-comment/>
     <color name="textColor">#303030</color>
+    <color name="textcolorhint">#B8B8B8</color>
     <declare-styleable name="ActionEditText"><attr format="string" name="optionOneString"/><attr format="color" name="optionOneColor"/><attr format="string" name="optionTwoString"/><attr format="color" name="optionTwoColor"/><attr format="string" name="onBadgeClick"/></declare-styleable>
     <declare-styleable name="SherlockActionBar"><attr name="navigationMode"><enum name="normal" value="0"/><enum name="listMode" value="1"/><enum name="tabMode" value="2"/></attr><attr name="displayOptions"><flag name="useLogo" value="0x1"/><flag name="showHome" value="0x2"/><flag name="homeAsUp" value="0x4"/><flag name="showTitle" value="0x8"/><flag name="showCustom" value="0x10"/><flag name="disableHome" value="0x20"/></attr><attr format="string" name="title"/><attr format="string" name="subtitle"/><attr name="titleTextStyle"/><attr name="subtitleTextStyle"/><attr format="reference" name="icon"/><attr format="reference" name="logo"/><attr name="divider"/><attr name="background"/><attr format="reference|color" name="backgroundStacked"/><attr name="backgroundSplit"/><attr format="reference" name="customNavigationLayout"/><attr name="height"/><attr format="reference" name="homeLayout"/><attr format="reference" name="progressBarStyle"/><attr format="reference" name="indeterminateProgressStyle"/><attr format="dimension" name="progressBarPadding"/><attr format="dimension" name="itemPadding"/></declare-styleable>
     <declare-styleable name="SherlockActionMenuItemView"><attr name="android:minWidth"/></declare-styleable>
@@ -93,7 +94,7 @@
     <declare-styleable name="SherlockMenuView"><attr format="reference" name="itemTextAppearance"/><attr format="reference" name="horizontalDivider"/><attr format="reference" name="verticalDivider"/><attr format="color|reference" name="headerBackground"/><attr format="color|reference" name="itemBackground"/><attr format="reference" name="windowAnimationStyle"/><attr format="float" name="itemIconDisabledAlpha"/><attr format="boolean" name="preserveIconSpacing"/></declare-styleable>
     <declare-styleable name="SherlockSpinner"><attr name="android:prompt"/><attr name="android:dropDownSelector"/><attr name="android:popupBackground"/><attr name="android:dropDownVerticalOffset"/><attr name="android:dropDownHorizontalOffset"/><attr name="android:dropDownWidth"/><attr name="android:popupPromptView"/><attr name="android:gravity"/></declare-styleable>
     <declare-styleable name="SherlockTheme"><attr format="reference" name="actionBarTabStyle"/><attr format="reference" name="actionBarTabBarStyle"/><attr format="reference" name="actionBarTabTextStyle"/><attr format="reference" name="actionOverflowButtonStyle"/><attr format="reference" name="actionBarStyle"/><attr format="reference" name="actionBarSplitStyle"/><attr format="reference" name="actionBarWidgetTheme"/><attr format="dimension" name="actionBarSize"><enum name="wrap_content" value="0"/></attr><attr format="reference" name="actionBarDivider"/><attr format="reference" name="actionBarItemBackground"/><attr format="reference" name="actionMenuTextAppearance"/><attr format="color|reference" name="actionMenuTextColor"/><attr format="reference" name="actionModeStyle"/><attr format="reference" name="actionModeCloseButtonStyle"/><attr format="reference" name="actionModeBackground"/><attr format="reference" name="actionModeSplitBackground"/><attr format="reference" name="actionModeCloseDrawable"/><attr format="reference" name="actionModeShareDrawable"/><attr format="reference" name="actionModePopupWindowStyle"/><attr format="reference" name="buttonStyleSmall"/><attr format="reference" name="windowContentOverlay"/><attr format="reference" name="textAppearanceLargePopupMenu"/><attr format="reference" name="textAppearanceSmallPopupMenu"/><attr format="reference" name="textAppearanceSmall"/><attr format="color" name="textColorPrimary"/><attr format="color" name="textColorPrimaryDisableOnly"/><attr format="color" name="textColorPrimaryInverse"/><attr format="reference" name="spinnerItemStyle"/><attr format="reference" name="spinnerDropDownItemStyle"/><attr format="dimension" name="listPreferredItemHeightSmall"/><attr format="dimension" name="listPreferredItemPaddingLeft"/><attr format="dimension" name="listPreferredItemPaddingRight"/><attr format="reference" name="textAppearanceListItemSmall"/><attr format="dimension" name="windowMinWidthMajor"/><attr format="dimension" name="windowMinWidthMinor"/><attr format="reference" name="dividerVertical"/><attr format="reference" name="actionDropDownStyle"/><attr format="reference" name="actionButtonStyle"/><attr format="reference" name="homeAsUpIndicator"/><attr format="reference" name="dropDownListViewStyle"/><attr format="reference" name="popupMenuStyle"/><attr format="dimension" name="dropdownListPreferredItemHeight"/><attr format="reference" name="actionSpinnerItemStyle"/><attr format="boolean" name="windowNoTitle"/><attr format="boolean" name="windowActionBar"/><attr format="boolean" name="windowActionBarOverlay"/><attr format="boolean" name="windowActionModeOverlay"/><attr format="boolean" name="windowSplitActionBar"/><attr format="reference" name="listPopupWindowStyle"/><attr format="reference" name="activityChooserViewStyle"/><attr format="reference" name="activatedBackgroundIndicator"/><attr format="boolean" name="absForceOverflow"/><attr name="android:windowIsFloating"/></declare-styleable>
-    <!-- From: file:/C:/Users/kenny/Projects/Kryptashare/build/intermediates/exploded-aar/Kryptashare/libs@actionbarsherlock_lib/unspecified/res/values/abs__dimens.xml -->
+    <!-- From: file:/C:/Users/kenny/Projects/Iluq-Cloud/build/intermediates/exploded-aar/Iluq-Cloud/libs@actionbarsherlock_lib/unspecified/res/values/abs__dimens.xml -->
     <eat-comment/>
     <dimen name="abs__action_bar_default_height">48dip</dimen>
     <dimen name="abs__action_bar_icon_vertical_padding">8dip</dimen>
@@ -103,18 +104,18 @@
     <dimen name="abs__action_bar_title_text_size">18dp</dimen>
     <dimen name="abs__action_button_min_width">56dip</dimen>
     <dimen name="abs__alert_dialog_title_height">64dip</dimen>
-    <!-- From: file:/C:/Users/kenny/Projects/Kryptashare/build/intermediates/exploded-aar/Kryptashare/libs@actionbarsherlock_lib/unspecified/res/values/abs__config.xml -->
+    <!-- From: file:/C:/Users/kenny/Projects/Iluq-Cloud/build/intermediates/exploded-aar/Iluq-Cloud/libs@actionbarsherlock_lib/unspecified/res/values/abs__config.xml -->
     <eat-comment/>
     <dimen name="abs__config_prefDialogWidth">320dp</dimen>
-    <!-- From: file:/C:/Users/kenny/Projects/Kryptashare/build/intermediates/exploded-aar/Kryptashare/libs@actionbarsherlock_lib/unspecified/res/values/abs__dimens.xml -->
+    <!-- From: file:/C:/Users/kenny/Projects/Iluq-Cloud/build/intermediates/exploded-aar/Iluq-Cloud/libs@actionbarsherlock_lib/unspecified/res/values/abs__dimens.xml -->
     <eat-comment/>
     <item name="abs__dialog_min_width_major" type="dimen">65%</item>
     <item name="abs__dialog_min_width_minor" type="dimen">95%</item>
-    <!-- From: file:/C:/Users/kenny/Projects/Kryptashare/res/values/dims.xml -->
+    <!-- From: file:/C:/Users/kenny/Projects/Iluq-Cloud/res/values/dims.xml -->
     <eat-comment/>
     <dimen name="file_icon_size">32dp</dimen>
     <dimen name="file_icon_size_grid">128dp</dimen>
-    <!-- From: file:/C:/Users/kenny/Projects/Kryptashare/build/intermediates/exploded-aar/Kryptashare/libs@actionbarsherlock_lib/unspecified/res/values/abs__ids.xml -->
+    <!-- From: file:/C:/Users/kenny/Projects/Iluq-Cloud/build/intermediates/exploded-aar/Iluq-Cloud/libs@actionbarsherlock_lib/unspecified/res/values/abs__ids.xml -->
     <eat-comment/>
     <item name="abs__action_menu_divider" type="id"/>
     <item name="abs__action_menu_presenter" type="id"/>
@@ -122,15 +123,15 @@
     <item name="abs__progress_circular" type="id"/>
     <item name="abs__progress_horizontal" type="id"/>
     <item name="abs__up" type="id"/>
-    <!-- From: file:/C:/Users/kenny/Projects/Kryptashare/build/intermediates/exploded-aar/Kryptashare/libs@actionbarsherlock_lib/unspecified/res/values/abs__dimens.xml -->
+    <!-- From: file:/C:/Users/kenny/Projects/Iluq-Cloud/build/intermediates/exploded-aar/Iluq-Cloud/libs@actionbarsherlock_lib/unspecified/res/values/abs__dimens.xml -->
     <eat-comment/>
     <integer name="abs__max_action_buttons">2</integer>
-    <!-- From: file:/C:/Users/kenny/Projects/Kryptashare/res/values/strings.xml -->
+    <!-- From: file:/C:/Users/kenny/Projects/Iluq-Cloud/res/values/strings.xml -->
     <eat-comment/>
     <string name="about_android">%1$s Android App</string>
     <string name="about_title">About</string>
-    <string name="about_version">version %1$s</string>
-    <!-- From: file:/C:/Users/kenny/Projects/Kryptashare/build/intermediates/exploded-aar/Kryptashare/libs@actionbarsherlock_lib/unspecified/res/values/abs__strings.xml -->
+    <string name="about_version">Version %1$s</string>
+    <!-- From: file:/C:/Users/kenny/Projects/Iluq-Cloud/build/intermediates/exploded-aar/Iluq-Cloud/libs@actionbarsherlock_lib/unspecified/res/values/abs__strings.xml -->
     <eat-comment/>
     <string name="abs__action_bar_home_description">Navigate home</string>
     <string name="abs__action_bar_up_description">Navigate up</string>
@@ -142,10 +143,10 @@
     <string name="abs__share_action_provider_share_with">Share with...</string>
     <string name="abs__shareactionprovider_share_with">Share with</string>
     <string name="abs__shareactionprovider_share_with_application">Share with <ns1:g example="Bluetooth" id="application_name">%s</ns1:g></string>
-    <!-- From: file:/C:/Users/kenny/Projects/Kryptashare/res/values/setup.xml -->
+    <!-- From: file:/C:/Users/kenny/Projects/Iluq-Cloud/res/values/setup.xml -->
     <eat-comment/>
-    <string name="account_type">KryptaShare</string>
-    <!-- From: file:/C:/Users/kenny/Projects/Kryptashare/res/values/strings.xml -->
+    <string name="account_type">Iluq Cloud</string>
+    <!-- From: file:/C:/Users/kenny/Projects/Iluq-Cloud/res/values/strings.xml -->
     <eat-comment/>
     <string name="action_share_file">Share link</string>
     <string name="action_unshare_file">Unshare link</string>
@@ -164,10 +165,10 @@
     <string name="actionbar_upload_from_apps">Content from other apps</string>
     <string name="activity_chooser_send_file_title">Send</string>
     <string name="activity_chooser_title">Send link to …</string>
-    <!-- From: file:/C:/Users/kenny/Projects/Kryptashare/res/values/setup.xml -->
+    <!-- From: file:/C:/Users/kenny/Projects/Iluq-Cloud/res/values/setup.xml -->
     <eat-comment/>
-    <string name="app_name">KryptaShare</string>
-    <!-- From: file:/C:/Users/kenny/Projects/Kryptashare/res/values/strings.xml -->
+    <string name="app_name">Iluq Cloud</string>
+    <!-- From: file:/C:/Users/kenny/Projects/Iluq-Cloud/res/values/strings.xml -->
     <eat-comment/>
     <string name="auth_account_does_not_exist">Account does not exist in the device yet</string>
     <string name="auth_account_not_new">An account for the same user and server already exists in the device</string>
@@ -187,11 +188,11 @@
     <string name="auth_host_url">Server address https://…</string>
     <string name="auth_incorrect_address_title">Malformed URL</string>
     <string name="auth_incorrect_path_title">Server instance not found</string>
-    <!-- From: file:/C:/Users/kenny/Projects/Kryptashare/res/values/setup.xml -->
+    <!-- From: file:/C:/Users/kenny/Projects/Iluq-Cloud/res/values/setup.xml -->
     <eat-comment/>
     <string name="auth_method_oauth2">off</string>
     <string name="auth_method_saml_web_sso">off</string>
-    <!-- From: file:/C:/Users/kenny/Projects/Kryptashare/res/values/strings.xml -->
+    <!-- From: file:/C:/Users/kenny/Projects/Iluq-Cloud/res/values/strings.xml -->
     <eat-comment/>
     <string name="auth_no_net_conn_title">No network connection</string>
     <string name="auth_nossl_plain_ok_title">Secure connection unavailable.</string>
@@ -216,10 +217,10 @@
     <string name="auth_username">Username</string>
     <string name="auth_wrong_connection_title">Couldn\'t establish connection</string>
     <string name="auth_wtf_reenter_URL">Unexpected state; please, enter the server URL again</string>
-    <!-- From: file:/C:/Users/kenny/Projects/Kryptashare/res/values/setup.xml -->
+    <!-- From: file:/C:/Users/kenny/Projects/Iluq-Cloud/res/values/setup.xml -->
     <eat-comment/>
-    <string name="authority">org.KryptaShare</string>
-    <!-- From: file:/C:/Users/kenny/Projects/Kryptashare/res/values/strings.xml -->
+    <string name="authority">org.Iluq_Cloud</string>
+    <!-- From: file:/C:/Users/kenny/Projects/Iluq-Cloud/res/values/strings.xml -->
     <eat-comment/>
     <string name="change_password">Change password</string>
     <string name="clipboard_text_copied">Copied to clipboard</string>
@@ -250,13 +251,13 @@
     <string name="copy_link">Copy link</string>
     <string name="create_account">Create account</string>
     <string name="create_dir_fail_msg">Folder could not be created</string>
-    <!-- From: file:/C:/Users/kenny/Projects/Kryptashare/res/values/setup.xml -->
+    <!-- From: file:/C:/Users/kenny/Projects/Iluq-Cloud/res/values/setup.xml -->
     <eat-comment/>
-    <string name="data_folder">KryptaShare</string>
-    <string name="db_file">KryptaShare.db</string>
-    <string name="db_name">KryptaShare</string>
-    <string name="default_display_name_for_root_folder">KryptaShare</string>
-    <!-- From: file:/C:/Users/kenny/Projects/Kryptashare/res/values/strings.xml -->
+    <string name="data_folder">Iluq Cloud</string>
+    <string name="db_file">Iluq Cloud.db</string>
+    <string name="db_name">Iluq Cloud</string>
+    <string name="default_display_name_for_root_folder">Iluq Cloud</string>
+    <!-- From: file:/C:/Users/kenny/Projects/Iluq-Cloud/res/values/strings.xml -->
     <eat-comment/>
     <string name="delete_account">Delete account</string>
     <string name="download_folder_failed_content">Download of %1$s folder could not be completed</string>
@@ -308,21 +309,21 @@
     <string name="instant_upload_path">/InstantUpload</string>
     <string name="instant_video_upload_on_wifi">Upload videos via WiFi only</string>
     <string name="local_file_list_empty">There are no files in this folder.</string>
-    <!-- From: file:/C:/Users/kenny/Projects/Kryptashare/res/values/setup.xml -->
+    <!-- From: file:/C:/Users/kenny/Projects/Iluq-Cloud/res/values/setup.xml -->
     <eat-comment/>
-    <string name="log_name">KryptaShare</string>
-    <!-- From: file:/C:/Users/kenny/Projects/Kryptashare/res/values/strings.xml -->
+    <string name="log_name">Iluq Cloud</string>
+    <!-- From: file:/C:/Users/kenny/Projects/Iluq-Cloud/res/values/strings.xml -->
     <eat-comment/>
     <string name="log_progress_dialog_text">Loading data…</string>
     <string name="log_send_history_button">Send History</string>
     <string name="log_send_mail_subject">%1$s Android app logs</string>
     <string name="log_send_no_mail_app">No app for sending logs found. Install mail app!</string>
-    <!-- From: file:/C:/Users/kenny/Projects/Kryptashare/res/values/setup.xml -->
+    <!-- From: file:/C:/Users/kenny/Projects/Iluq-Cloud/res/values/setup.xml -->
     <eat-comment/>
-    <string name="mail_feedback">"mailto:helpdesk@diversecti.net"</string>
+    <string name="mail_feedback">"mailto:webmaster@iluq.net"</string>
     <string name="mail_logger"/>
     <string name="mail_recommend">"mailto:"</string>
-    <!-- From: file:/C:/Users/kenny/Projects/Kryptashare/res/values/strings.xml -->
+    <!-- From: file:/C:/Users/kenny/Projects/Iluq-Cloud/res/values/strings.xml -->
     <eat-comment/>
     <string name="media_err_invalid_progressive_playback">Media file cannot be streamed</string>
     <string name="media_err_io">Media file could not be read</string>
@@ -351,9 +352,9 @@
     <string name="network_error_socket_exception">An error occurred while connecting with the server.</string>
     <string name="network_error_socket_timeout_exception">An error occurred while waiting for the server, the operation couldn\'t have been done</string>
     <string name="network_host_not_available">The operation couldn\'t be completed, server is unavailable</string>
-    <!-- From: file:/C:/Users/kenny/Projects/Kryptashare/res/values/oauth2_configuration.xml -->
+    <!-- From: file:/C:/Users/kenny/Projects/Iluq-Cloud/res/values/oauth2_configuration.xml -->
     <eat-comment/>
-    <string name="oauth2_client_id">com.kryptashare.android</string>
+    <string name="oauth2_client_id">com.iluq_cloud.android</string>
     <string name="oauth2_client_secret"/>
     <string name="oauth2_grant_type">authorization_code</string>
     <string name="oauth2_redirect_scheme">owncloud</string>
@@ -362,7 +363,7 @@
     <string name="oauth2_scope">owncloud</string>
     <string name="oauth2_url_endpoint_access">http://oauth2.authorization.server.org/paht/to/endporint/for/access/token</string>
     <string name="oauth2_url_endpoint_auth">http://oauth2.authorization.server.org/paht/to/endpoint/for/authorization</string>
-    <!-- From: file:/C:/Users/kenny/Projects/Kryptashare/res/values/strings.xml -->
+    <!-- From: file:/C:/Users/kenny/Projects/Iluq-Cloud/res/values/strings.xml -->
     <eat-comment/>
     <string name="oauth_check_onoff">Login with oAuth2</string>
     <string name="oauth_login_connection">Connecting to oAuth2 server…</string>
@@ -419,17 +420,17 @@
     <string name="rename_server_fail_msg">"Rename could not be completed"</string>
     <string name="saml_authentication_required_text">Authentication required</string>
     <string name="saml_authentication_wrong_pass">Wrong password</string>
-    <!-- From: file:/C:/Users/kenny/Projects/Kryptashare/res/values/setup.xml -->
+    <!-- From: file:/C:/Users/kenny/Projects/Iluq-Cloud/res/values/setup.xml -->
     <eat-comment/>
     <string name="send_files_to_other_apps">on</string>
     <string name="server_url"/>
-    <!-- From: file:/C:/Users/kenny/Projects/Kryptashare/res/values/strings.xml -->
+    <!-- From: file:/C:/Users/kenny/Projects/Iluq-Cloud/res/values/strings.xml -->
     <eat-comment/>
     <string name="setup_btn_connect">Connect</string>
-    <!-- From: file:/C:/Users/kenny/Projects/Kryptashare/res/values/setup.xml -->
+    <!-- From: file:/C:/Users/kenny/Projects/Iluq-Cloud/res/values/setup.xml -->
     <eat-comment/>
     <string name="share_api_link"/>
-    <!-- From: file:/C:/Users/kenny/Projects/Kryptashare/res/values/strings.xml -->
+    <!-- From: file:/C:/Users/kenny/Projects/Iluq-Cloud/res/values/strings.xml -->
     <eat-comment/>
     <string name="share_link_empty_password">You must enter a password</string>
     <string name="share_link_file_error">An error occurred while trying to share this file or folder</string>
@@ -503,19 +504,19 @@
     <string name="uploader_wrn_no_account_title">No account found</string>
     <string name="uploader_wrn_no_content_text">No content was received. Nothing to upload.</string>
     <string name="uploader_wrn_no_content_title">No content to upload</string>
-    <!-- From: file:/C:/Users/kenny/Projects/Kryptashare/res/values/setup.xml -->
+    <!-- From: file:/C:/Users/kenny/Projects/Iluq-Cloud/res/values/setup.xml -->
     <eat-comment/>
-    <string name="url_app_download">"https://my.kryptashare.com:444"</string>
+    <string name="url_app_download">"https://www.iluq.net"</string>
     <string name="url_help">http://owncloud.com/mobile/help</string>
     <string name="url_imprint"/>
-    <string name="user_agent">Mozilla/5.0 (Android) KryptaShare-android/%1$s</string>
-    <!-- From: file:/C:/Users/kenny/Projects/Kryptashare/res/values/strings.xml -->
+    <string name="user_agent">Mozilla/5.0 (Android) Iluq Cloud-android/%1$s</string>
+    <!-- From: file:/C:/Users/kenny/Projects/Iluq-Cloud/res/values/strings.xml -->
     <eat-comment/>
     <string name="wait_a_moment">Wait a moment</string>
-    <!-- From: file:/C:/Users/kenny/Projects/Kryptashare/res/values/setup.xml -->
+    <!-- From: file:/C:/Users/kenny/Projects/Iluq-Cloud/res/values/setup.xml -->
     <eat-comment/>
-    <string name="welcome_link_url">"http://www.kryptashare.com"</string>
-    <!-- From: file:/C:/Users/kenny/Projects/Kryptashare/res/values/styles.xml -->
+    <string name="welcome_link_url">"http://www.iluq.com"</string>
+    <!-- From: file:/C:/Users/kenny/Projects/Iluq-Cloud/res/values/styles.xml -->
     <eat-comment/>
     <style name="Animations"/>
     <style name="Animations.PopDownMenu"/>
@@ -552,7 +553,7 @@
 		<item name="@android:windowEnterAnimation">@anim/grow_from_bottomright_to_topleft</item>
 		<item name="@android:windowExitAnimation">@anim/shrink_from_topleft_to_bottomright</item>
 	</style>
-    <!-- From: file:/C:/Users/kenny/Projects/Kryptashare/build/intermediates/exploded-aar/Kryptashare/libs@actionbarsherlock_lib/unspecified/res/values/abs__styles.xml -->
+    <!-- From: file:/C:/Users/kenny/Projects/Iluq-Cloud/build/intermediates/exploded-aar/Iluq-Cloud/libs@actionbarsherlock_lib/unspecified/res/values/abs__styles.xml -->
     <eat-comment/>
     <style name="DialogWindowTitle.Sherlock" parent="Widget">
         <item name="android:maxLines">1</item>
@@ -570,7 +571,7 @@
         <item name="android:paddingLeft">16dip</item>
         <item name="android:paddingRight">16dip</item>
     </style>
-    <!-- From: file:/C:/Users/kenny/Projects/Kryptashare/res/values/styles.xml -->
+    <!-- From: file:/C:/Users/kenny/Projects/Iluq-Cloud/res/values/styles.xml -->
     <eat-comment/>
     <style name="OAuthDialog" parent="@android:style/Theme.Dialog">
 		<item name="android:windowNoTitle">false</item>	
@@ -588,13 +589,13 @@
 		<item name="android:singleLine">true</item>
   		    
     </style>
-    <!-- From: file:/C:/Users/kenny/Projects/Kryptashare/build/intermediates/exploded-aar/Kryptashare/libs@actionbarsherlock_lib/unspecified/res/values/abs__styles.xml -->
+    <!-- From: file:/C:/Users/kenny/Projects/Iluq-Cloud/build/intermediates/exploded-aar/Iluq-Cloud/libs@actionbarsherlock_lib/unspecified/res/values/abs__styles.xml -->
     <eat-comment/>
     <style name="Sherlock.__TextAppearance.Small" parent="Widget">
       <item name="android:textSize">14sp</item>
       <item name="android:textColor">?android:attr/textColorSecondary</item>
     </style>
-    <!-- From: file:/C:/Users/kenny/Projects/Kryptashare/build/intermediates/exploded-aar/Kryptashare/libs@actionbarsherlock_lib/unspecified/res/values/abs__themes.xml -->
+    <!-- From: file:/C:/Users/kenny/Projects/Iluq-Cloud/build/intermediates/exploded-aar/Iluq-Cloud/libs@actionbarsherlock_lib/unspecified/res/values/abs__themes.xml -->
     <eat-comment/>
     <style name="Sherlock.__Theme" parent="android:Theme.NoTitleBar">
         <item name="android:windowContentOverlay">@null</item>
@@ -606,7 +607,7 @@
     <style name="Sherlock.__Theme.Light" parent="android:Theme.Light.NoTitleBar">
         <item name="android:windowContentOverlay">@null</item>
     </style>
-    <!-- From: file:/C:/Users/kenny/Projects/Kryptashare/build/intermediates/exploded-aar/Kryptashare/libs@actionbarsherlock_lib/unspecified/res/values/abs__styles.xml -->
+    <!-- From: file:/C:/Users/kenny/Projects/Iluq-Cloud/build/intermediates/exploded-aar/Iluq-Cloud/libs@actionbarsherlock_lib/unspecified/res/values/abs__styles.xml -->
     <eat-comment/>
     <style name="Sherlock.__Widget.ActionBar" parent="Widget">
         <item name="displayOptions">useLogo|showHome|showTitle</item>
@@ -722,7 +723,7 @@
         <item name="android:textSize">16sp</item>
         <item name="android:textStyle">normal</item>
     </style>
-    <!-- From: file:/C:/Users/kenny/Projects/Kryptashare/build/intermediates/exploded-aar/Kryptashare/libs@actionbarsherlock_lib/unspecified/res/values/abs__themes.xml -->
+    <!-- From: file:/C:/Users/kenny/Projects/Iluq-Cloud/build/intermediates/exploded-aar/Iluq-Cloud/libs@actionbarsherlock_lib/unspecified/res/values/abs__themes.xml -->
     <eat-comment/>
     <style name="Theme.Sherlock" parent="Sherlock.__Theme">
         <!-- Action bar styles (from Theme.Holo) -->
@@ -929,7 +930,7 @@
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
     </style>
-    <!-- From: file:/C:/Users/kenny/Projects/Kryptashare/res/values/styles.xml -->
+    <!-- From: file:/C:/Users/kenny/Projects/Iluq-Cloud/res/values/styles.xml -->
     <eat-comment/>
     <style name="Theme.ownCloud" parent="style/Theme.Sherlock.Light.DarkActionBar">
     	<item name="android:actionBarStyle">@style/Theme.ownCloud.Widget.ActionBar</item>
@@ -938,22 +939,22 @@
     	<item name="actionDropDownStyle">@style/Theme.ownCloud.DropDownStyle</item>
     	<item name="android:actionDropDownStyle">@style/Theme.ownCloud.DropDownStyle</item>
 	</style>
-    <!-- From: file:/C:/Users/kenny/Projects/Kryptashare/res/values/versioned_styles.xml -->
+    <!-- From: file:/C:/Users/kenny/Projects/Iluq-Cloud/res/values/versioned_styles.xml -->
     <eat-comment/>
     <style name="Theme.ownCloud.ButtonStyle" parent="@android:style/Widget.Button">
 		<item name="android:background">@android:drawable/btn_default</item>
 		<item name="android:textColor">@color/button_text_color</item>
 	</style>
-    <!-- From: file:/C:/Users/kenny/Projects/Kryptashare/res/values/styles.xml -->
+    <!-- From: file:/C:/Users/kenny/Projects/Iluq-Cloud/res/values/styles.xml -->
     <eat-comment/>
     <style name="Theme.ownCloud.Dialog" parent="@android:style/Theme.Dialog">
 	</style>
-    <!-- From: file:/C:/Users/kenny/Projects/Kryptashare/res/values/versioned_styles.xml -->
+    <!-- From: file:/C:/Users/kenny/Projects/Iluq-Cloud/res/values/versioned_styles.xml -->
     <eat-comment/>
     <style name="Theme.ownCloud.DropDownStyle" parent="style/Widget.Sherlock.Spinner.DropDown.ActionBar">
 	    <item name="android:background">@drawable/abs__spinner_ab_holo_dark</item>
 	</style>
-    <!-- From: file:/C:/Users/kenny/Projects/Kryptashare/res/values/styles.xml -->
+    <!-- From: file:/C:/Users/kenny/Projects/Iluq-Cloud/res/values/styles.xml -->
     <eat-comment/>
     <style name="Theme.ownCloud.Fullscreen" parent="style/Theme.Sherlock.NoActionBar">
       <item name="android:actionBarStyle">@style/Theme.ownCloud.Widget.ActionBar</item>
@@ -962,7 +963,7 @@
       <item name="actionDropDownStyle">@style/Theme.ownCloud.DropDownStyle</item>
       <item name="android:actionDropDownStyle">@style/Theme.ownCloud.DropDownStyle</item>
     </style>
-    <!-- From: file:/C:/Users/kenny/Projects/Kryptashare/res/values/versioned_styles.xml -->
+    <!-- From: file:/C:/Users/kenny/Projects/Iluq-Cloud/res/values/versioned_styles.xml -->
     <eat-comment/>
     <style name="Theme.ownCloud.IndeterminateStyle" parent="style/Widget.Sherlock.ProgressBar">
 	    <item name="android:indeterminateDrawable">@drawable/abs__progress_medium_holo</item>
@@ -976,7 +977,7 @@
 		<item name="android:textSize">18sp</item>
         <item name="android:textStyle">bold</item>
 	</style>
-    <!-- From: file:/C:/Users/kenny/Projects/Kryptashare/res/values/styles.xml -->
+    <!-- From: file:/C:/Users/kenny/Projects/Iluq-Cloud/res/values/styles.xml -->
     <eat-comment/>
     <style name="Theme.ownCloud.Widget.ActionBar" parent="style/Widget.Sherlock.Light.ActionBar.Solid.Inverse">
     	<item name="android:background">@drawable/main_header_bg</item>
@@ -996,7 +997,7 @@
       <item name="actionDropDownStyle">@style/Theme.ownCloud.DropDownStyle</item>
       <item name="android:actionDropDownStyle">@style/Theme.ownCloud.DropDownStyle</item>
     </style>
-    <!-- From: file:/C:/Users/kenny/Projects/Kryptashare/build/intermediates/exploded-aar/Kryptashare/libs@actionbarsherlock_lib/unspecified/res/values/abs__styles.xml -->
+    <!-- From: file:/C:/Users/kenny/Projects/Iluq-Cloud/build/intermediates/exploded-aar/Iluq-Cloud/libs@actionbarsherlock_lib/unspecified/res/values/abs__styles.xml -->
     <eat-comment/>
     <style name="Widget">
     </style>

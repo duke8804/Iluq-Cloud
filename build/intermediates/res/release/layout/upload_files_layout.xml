@@ -28,7 +28,7 @@
         android:layout_width="match_parent"
         android:layout_height="0dip"
         android:layout_weight="1"
-        class="com.kryptashare.android.ui.fragment.LocalFileListFragment" />
+        class="com.iluq_cloud.android.ui.fragment.LocalFileListFragment" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -57,4 +57,4 @@
 	</LinearLayout>
     
 </LinearLayout>
-<!-- From: file:/C:/Users/kenny/Projects/Kryptashare/res/layout/upload_files_layout.xml -->
+<!-- From: file:/C:/Users/kenny/Projects/Iluq-Cloud/res/layout/upload_files_layout.xml -->

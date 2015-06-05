@@ -20,4 +20,4 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android" >
     <item android:id="@+id/change_password" android:title="@string/change_password"></item>
     <item android:id="@+id/delete_account" android:title="@string/delete_account"></item>
-</menu><!-- From: file:/C:/Users/kenny/Projects/Kryptashare/res/menu/account_picker_long_click.xml -->
+</menu><!-- From: file:/C:/Users/kenny/Projects/Iluq-Cloud/res/menu/account_picker_long_click.xml -->

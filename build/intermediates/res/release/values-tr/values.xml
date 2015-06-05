@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/C:/Users/kenny/Projects/Kryptashare/res/values-tr/strings.xml -->
+    <!-- From: file:/C:/Users/kenny/Projects/Iluq-Cloud/res/values-tr/strings.xml -->
     <eat-comment/>
     <string-array name="actionbar_sortby">
     <item>A-Z</item>
     <item>Yeniden - Eskiye</item>
   </string-array>
-    <!-- From: file:/C:/Users/kenny/Projects/Kryptashare/res/values-tr/colors.xml -->
+    <!-- From: file:/C:/Users/kenny/Projects/Iluq-Cloud/res/values-tr/colors.xml -->
     <eat-comment/>
-    <color name="button_background_color">#BE1E2D</color>
-    <!-- From: file:/C:/Users/kenny/Projects/Kryptashare/res/values-tr/strings.xml -->
+    <color name="button_background_color">#0099CC</color>
+    <color name="textcolorhint">#B8B8B8</color>
+    <!-- From: file:/C:/Users/kenny/Projects/Iluq-Cloud/res/values-tr/strings.xml -->
     <eat-comment/>
     <string name="about_android">%1$s Android Uygulaması</string>
     <string name="about_title">Hakkında</string>

@@ -21,7 +21,7 @@
     android:layout_height="wrap_content"
     >
     
-    <!--  com.kryptashare.android.ui.dialog.SsoWebView
+    <!--  com.iluq_cloud.android.ui.dialog.SsoWebView
     	android:layout_width="wrap_content"
     	android:layout_height="wrap_content"
         android:id="@+id/sso_webview"

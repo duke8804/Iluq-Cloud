@@ -54,11 +54,11 @@
 	   	
    	</FrameLayout>
    	
-   	<com.kryptashare.android.media.MediaControlView
+   	<com.iluq_cloud.android.media.MediaControlView
    	    android:id="@id/media_controller"
    	    android:layout_width="match_parent"
    	    android:layout_height="wrap_content"
    	    android:layout_alignParentBottom="true"
    	    />
 
-</RelativeLayout><!-- From: file:/C:/Users/kenny/Projects/Kryptashare/res/layout/file_preview.xml -->
+</RelativeLayout><!-- From: file:/C:/Users/kenny/Projects/Iluq-Cloud/res/layout/file_preview.xml -->

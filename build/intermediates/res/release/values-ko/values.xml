@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/C:/Users/kenny/Projects/Kryptashare/res/values-ko/strings.xml -->
+    <!-- From: file:/C:/Users/kenny/Projects/Iluq-Cloud/res/values-ko/strings.xml -->
     <eat-comment/>
     <string-array name="actionbar_sortby">
     <item>가나다</item>
     <item>최신 - 이전</item>
   </string-array>
-    <!-- From: file:/C:/Users/kenny/Projects/Kryptashare/res/values-ko/colors.xml -->
+    <!-- From: file:/C:/Users/kenny/Projects/Iluq-Cloud/res/values-ko/colors.xml -->
     <eat-comment/>
-    <color name="button_background_color">#BE1E2D</color>
-    <!-- From: file:/C:/Users/kenny/Projects/Kryptashare/res/values-ko/strings.xml -->
+    <color name="button_background_color">#0099CC</color>
+    <color name="textcolorhint">#B8B8B8</color>
+    <!-- From: file:/C:/Users/kenny/Projects/Iluq-Cloud/res/values-ko/strings.xml -->
     <eat-comment/>
     <string name="about_android">%1$s 안드로이드 앱</string>
     <string name="about_title">정보</string>

@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/C:/Users/kenny/Projects/Kryptashare/res/values-large-land/bools.xml -->
+    <!-- From: file:/C:/Users/kenny/Projects/Iluq-Cloud/res/values-large-land/bools.xml -->
     <eat-comment/>
     <bool name="large_land_layout">true</bool>
-    <!-- From: file:/C:/Users/kenny/Projects/Kryptashare/res/values-large-land/colors.xml -->
+    <!-- From: file:/C:/Users/kenny/Projects/Iluq-Cloud/res/values-large-land/colors.xml -->
     <eat-comment/>
-    <color name="button_background_color">#BE1E2D</color>
+    <color name="button_background_color">#0099CC</color>
+    <color name="textcolorhint">#B8B8B8</color>
 </resources>

@@ -55,4 +55,4 @@
         android:layout_marginTop="-4dip"
         android:src="@drawable/arrow_down" android:layout_below="@+id/scroller"/>
 
-</RelativeLayout><!-- From: file:/C:/Users/kenny/Projects/Kryptashare/res/layout/popup.xml -->
+</RelativeLayout><!-- From: file:/C:/Users/kenny/Projects/Iluq-Cloud/res/layout/popup.xml -->

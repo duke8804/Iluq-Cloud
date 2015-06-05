@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/C:/Users/kenny/Projects/Kryptashare/res/values-fr/strings.xml -->
+    <!-- From: file:/C:/Users/kenny/Projects/Iluq-Cloud/res/values-fr/strings.xml -->
     <eat-comment/>
     <string-array name="actionbar_sortby">
     <item>par ordre alphabétique</item>
     <item>du plus récent au plus ancien</item>
   </string-array>
-    <!-- From: file:/C:/Users/kenny/Projects/Kryptashare/res/values-fr/colors.xml -->
+    <!-- From: file:/C:/Users/kenny/Projects/Iluq-Cloud/res/values-fr/colors.xml -->
     <eat-comment/>
-    <color name="button_background_color">#BE1E2D</color>
-    <!-- From: file:/C:/Users/kenny/Projects/Kryptashare/res/values-fr/strings.xml -->
+    <color name="button_background_color">#0099CC</color>
+    <color name="textcolorhint">#B8B8B8</color>
+    <!-- From: file:/C:/Users/kenny/Projects/Iluq-Cloud/res/values-fr/strings.xml -->
     <eat-comment/>
     <string name="about_android">%1$s Android App</string>
     <string name="about_title">À propos de</string>

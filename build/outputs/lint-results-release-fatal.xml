@@ -9,11 +9,11 @@
         priority="9"
         summary="Hardcoded Package in Namespace"
         explanation="In Gradle projects, the actual package used in the final APK can vary; for you can add a `.debug` package suffix in one version and not the other. Therefore, you should *not* hardcode the application package in the resource; instead, use the special namespace `http://schemas.android.com/apk/res-auto` which will cause the tools to figure out the right namespace for the resource regardless of the actual package used during the build."
-        errorLine1="    xmlns:oc=&quot;http://schemas.android.com/apk/res/com.kryptashare.android&quot;"
-        errorLine2="    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
+        errorLine1="    xmlns:oc=&quot;http://schemas.android.com/apk/res/com.iluq_cloud.android&quot;"
+        errorLine2="    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="studio">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\layout\pincodelock.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\layout\pincodelock.xml"
             line="21"
             column="5"/>
     </issue>
@@ -32,7 +32,7 @@
         errorLine1="    public FileDetailFragment(OCFile fileToDetail, Account ocAccount) {"
         errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\src\com\owncloud\android\ui\fragment\FileDetailFragment.java"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\src\com\owncloud\android\ui\fragment\FileDetailFragment.java"
             line="93"
             column="12"/>
     </issue>
@@ -51,7 +51,7 @@
         errorLine1="    public FileDownloadFragment(OCFile fileToDetail, Account ocAccount, boolean ignoreFirstSavedState) {"
         errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\src\com\owncloud\android\ui\preview\FileDownloadFragment.java"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\src\com\owncloud\android\ui\preview\FileDownloadFragment.java"
             line="90"
             column="12"/>
     </issue>
@@ -70,7 +70,7 @@
         errorLine1="    public FileFragment(OCFile file) {"
         errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\src\com\owncloud\android\ui\fragment\FileFragment.java"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\src\com\owncloud\android\ui\fragment\FileFragment.java"
             line="58"
             column="12"/>
     </issue>
@@ -89,7 +89,7 @@
         errorLine1="    public LoadingDialog(String message) {"
         errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\src\com\owncloud\android\ui\dialog\LoadingDialog.java"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\src\com\owncloud\android\ui\dialog\LoadingDialog.java"
             line="47"
             column="12"/>
     </issue>
@@ -108,7 +108,7 @@
         errorLine1="    public PreviewImageFragment(OCFile fileToDetail, Account ocAccount, boolean ignoreFirstSavedState) {"
         errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\src\com\owncloud\android\ui\preview\PreviewImageFragment.java"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\src\com\owncloud\android\ui\preview\PreviewImageFragment.java"
             line="100"
             column="12"/>
     </issue>
@@ -127,7 +127,7 @@
         errorLine1="    public PreviewMediaFragment("
         errorLine2="           ^">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\src\com\owncloud\android\ui\preview\PreviewMediaFragment.java"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\src\com\owncloud\android\ui\preview\PreviewMediaFragment.java"
             line="103"
             column="12"/>
     </issue>
@@ -150,7 +150,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\oauth2_configuration.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\oauth2_configuration.xml"
             line="4"
             column="13"/>
     </issue>
@@ -173,7 +173,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\oauth2_configuration.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\oauth2_configuration.xml"
             line="5"
             column="13"/>
     </issue>
@@ -196,7 +196,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\oauth2_configuration.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\oauth2_configuration.xml"
             line="8"
             column="13"/>
     </issue>
@@ -219,7 +219,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\oauth2_configuration.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\oauth2_configuration.xml"
             line="9"
             column="13"/>
     </issue>
@@ -242,7 +242,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\oauth2_configuration.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\oauth2_configuration.xml"
             line="10"
             column="13"/>
     </issue>
@@ -265,7 +265,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\oauth2_configuration.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\oauth2_configuration.xml"
             line="11"
             column="13"/>
     </issue>
@@ -288,7 +288,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\oauth2_configuration.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\oauth2_configuration.xml"
             line="12"
             column="13"/>
     </issue>
@@ -307,11 +307,11 @@ If the string should *not* be translated, you can add the attribute `translatabl
 By default this detector allows regions of a language to just provide a subset of the strings and fall back to the standard language strings. You can require all regions to provide a full translation by setting the environment variable `ANDROID_LINT_COMPLETE_REGIONS`.
 
 You can tell lint (and other tools) which language is the default language in your `res/values/` folder by specifying `tools:locale=&quot;languageCode&quot;` for the root `&lt;resources>` element in your resource file. (The `tools` prefix refers to the namespace declaration `http://schemas.android.com/tools`.)"
-        errorLine1="    &lt;string name=&quot;oauth2_client_id&quot;>com.kryptashare.android&lt;/string> &lt;!-- preferable that client decides this -->"
+        errorLine1="    &lt;string name=&quot;oauth2_client_id&quot;>com.iluq_cloud.android&lt;/string> &lt;!-- preferable that client decides this -->"
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\oauth2_configuration.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\oauth2_configuration.xml"
             line="15"
             column="13"/>
     </issue>
@@ -334,7 +334,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\oauth2_configuration.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\oauth2_configuration.xml"
             line="16"
             column="13"/>
     </issue>
@@ -353,11 +353,11 @@ If the string should *not* be translated, you can add the attribute `translatabl
 By default this detector allows regions of a language to just provide a subset of the strings and fall back to the standard language strings. You can require all regions to provide a full translation by setting the environment variable `ANDROID_LINT_COMPLETE_REGIONS`.
 
 You can tell lint (and other tools) which language is the default language in your `res/values/` folder by specifying `tools:locale=&quot;languageCode&quot;` for the root `&lt;resources>` element in your resource file. (The `tools` prefix refers to the namespace declaration `http://schemas.android.com/tools`.)"
-        errorLine1="    &lt;string name=&quot;app_name&quot;>KryptaShare&lt;/string>"
+        errorLine1="    &lt;string name=&quot;app_name&quot;>Iluq Cloud&lt;/string>"
         errorLine2="            ~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\setup.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\setup.xml"
             line="4"
             column="13"/>
     </issue>
@@ -376,11 +376,11 @@ If the string should *not* be translated, you can add the attribute `translatabl
 By default this detector allows regions of a language to just provide a subset of the strings and fall back to the standard language strings. You can require all regions to provide a full translation by setting the environment variable `ANDROID_LINT_COMPLETE_REGIONS`.
 
 You can tell lint (and other tools) which language is the default language in your `res/values/` folder by specifying `tools:locale=&quot;languageCode&quot;` for the root `&lt;resources>` element in your resource file. (The `tools` prefix refers to the namespace declaration `http://schemas.android.com/tools`.)"
-        errorLine1="    &lt;string name=&quot;account_type&quot;>KryptaShare&lt;/string> &lt;!-- better if was a domain name; but changing it now would require migrate accounts when the app is updated -->"
+        errorLine1="    &lt;string name=&quot;account_type&quot;>Iluq Cloud&lt;/string> &lt;!-- better if was a domain name; but changing it now would require migrate accounts when the app is updated -->"
         errorLine2="            ~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\setup.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\setup.xml"
             line="5"
             column="13"/>
     </issue>
@@ -399,11 +399,11 @@ If the string should *not* be translated, you can add the attribute `translatabl
 By default this detector allows regions of a language to just provide a subset of the strings and fall back to the standard language strings. You can require all regions to provide a full translation by setting the environment variable `ANDROID_LINT_COMPLETE_REGIONS`.
 
 You can tell lint (and other tools) which language is the default language in your `res/values/` folder by specifying `tools:locale=&quot;languageCode&quot;` for the root `&lt;resources>` element in your resource file. (The `tools` prefix refers to the namespace declaration `http://schemas.android.com/tools`.)"
-        errorLine1="    &lt;string name=&quot;authority&quot;>org.KryptaShare&lt;/string> &lt;!-- better if was the app package with &quot;.provider&quot; appended ; it identifies the provider -->"
+        errorLine1="    &lt;string name=&quot;authority&quot;>org.Iluq_Cloud&lt;/string> &lt;!-- better if was the app package with &quot;.provider&quot; appended ; it identifies the provider -->"
         errorLine2="            ~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\setup.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\setup.xml"
             line="6"
             column="13"/>
     </issue>
@@ -422,11 +422,11 @@ If the string should *not* be translated, you can add the attribute `translatabl
 By default this detector allows regions of a language to just provide a subset of the strings and fall back to the standard language strings. You can require all regions to provide a full translation by setting the environment variable `ANDROID_LINT_COMPLETE_REGIONS`.
 
 You can tell lint (and other tools) which language is the default language in your `res/values/` folder by specifying `tools:locale=&quot;languageCode&quot;` for the root `&lt;resources>` element in your resource file. (The `tools` prefix refers to the namespace declaration `http://schemas.android.com/tools`.)"
-        errorLine1="    &lt;string name =&quot;db_file&quot;>KryptaShare.db&lt;/string>"
+        errorLine1="    &lt;string name =&quot;db_file&quot;>Iluq Cloud.db&lt;/string>"
         errorLine2="            ~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\setup.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\setup.xml"
             line="7"
             column="13"/>
     </issue>
@@ -445,11 +445,11 @@ If the string should *not* be translated, you can add the attribute `translatabl
 By default this detector allows regions of a language to just provide a subset of the strings and fall back to the standard language strings. You can require all regions to provide a full translation by setting the environment variable `ANDROID_LINT_COMPLETE_REGIONS`.
 
 You can tell lint (and other tools) which language is the default language in your `res/values/` folder by specifying `tools:locale=&quot;languageCode&quot;` for the root `&lt;resources>` element in your resource file. (The `tools` prefix refers to the namespace declaration `http://schemas.android.com/tools`.)"
-        errorLine1="    &lt;string name =&quot;db_name&quot;>KryptaShare&lt;/string>"
+        errorLine1="    &lt;string name =&quot;db_name&quot;>Iluq Cloud&lt;/string>"
         errorLine2="            ~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\setup.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\setup.xml"
             line="8"
             column="13"/>
     </issue>
@@ -468,11 +468,11 @@ If the string should *not* be translated, you can add the attribute `translatabl
 By default this detector allows regions of a language to just provide a subset of the strings and fall back to the standard language strings. You can require all regions to provide a full translation by setting the environment variable `ANDROID_LINT_COMPLETE_REGIONS`.
 
 You can tell lint (and other tools) which language is the default language in your `res/values/` folder by specifying `tools:locale=&quot;languageCode&quot;` for the root `&lt;resources>` element in your resource file. (The `tools` prefix refers to the namespace declaration `http://schemas.android.com/tools`.)"
-        errorLine1="    &lt;string name =&quot;data_folder&quot;>KryptaShare&lt;/string>"
+        errorLine1="    &lt;string name =&quot;data_folder&quot;>Iluq Cloud&lt;/string>"
         errorLine2="            ~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\setup.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\setup.xml"
             line="9"
             column="13"/>
     </issue>
@@ -491,11 +491,11 @@ If the string should *not* be translated, you can add the attribute `translatabl
 By default this detector allows regions of a language to just provide a subset of the strings and fall back to the standard language strings. You can require all regions to provide a full translation by setting the environment variable `ANDROID_LINT_COMPLETE_REGIONS`.
 
 You can tell lint (and other tools) which language is the default language in your `res/values/` folder by specifying `tools:locale=&quot;languageCode&quot;` for the root `&lt;resources>` element in your resource file. (The `tools` prefix refers to the namespace declaration `http://schemas.android.com/tools`.)"
-        errorLine1="    &lt;string name =&quot;log_name&quot;>KryptaShare&lt;/string>"
+        errorLine1="    &lt;string name =&quot;log_name&quot;>Iluq Cloud&lt;/string>"
         errorLine2="            ~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\setup.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\setup.xml"
             line="10"
             column="13"/>
     </issue>
@@ -514,11 +514,11 @@ If the string should *not* be translated, you can add the attribute `translatabl
 By default this detector allows regions of a language to just provide a subset of the strings and fall back to the standard language strings. You can require all regions to provide a full translation by setting the environment variable `ANDROID_LINT_COMPLETE_REGIONS`.
 
 You can tell lint (and other tools) which language is the default language in your `res/values/` folder by specifying `tools:locale=&quot;languageCode&quot;` for the root `&lt;resources>` element in your resource file. (The `tools` prefix refers to the namespace declaration `http://schemas.android.com/tools`.)"
-        errorLine1="    &lt;string name =&quot;default_display_name_for_root_folder&quot;>KryptaShare&lt;/string>"
+        errorLine1="    &lt;string name =&quot;default_display_name_for_root_folder&quot;>Iluq Cloud&lt;/string>"
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\setup.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\setup.xml"
             line="11"
             column="13"/>
     </issue>
@@ -537,11 +537,11 @@ If the string should *not* be translated, you can add the attribute `translatabl
 By default this detector allows regions of a language to just provide a subset of the strings and fall back to the standard language strings. You can require all regions to provide a full translation by setting the environment variable `ANDROID_LINT_COMPLETE_REGIONS`.
 
 You can tell lint (and other tools) which language is the default language in your `res/values/` folder by specifying `tools:locale=&quot;languageCode&quot;` for the root `&lt;resources>` element in your resource file. (The `tools` prefix refers to the namespace declaration `http://schemas.android.com/tools`.)"
-        errorLine1="    &lt;string name =&quot;user_agent&quot;>Mozilla/5.0 (Android) KryptaShare-android/%1$s&lt;/string>"
+        errorLine1="    &lt;string name =&quot;user_agent&quot;>Mozilla/5.0 (Android) Iluq Cloud-android/%1$s&lt;/string>"
         errorLine2="            ~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\setup.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\setup.xml"
             line="12"
             column="13"/>
     </issue>
@@ -564,7 +564,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\setup.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\setup.xml"
             line="15"
             column="13"/>
     </issue>
@@ -583,11 +583,11 @@ If the string should *not* be translated, you can add the attribute `translatabl
 By default this detector allows regions of a language to just provide a subset of the strings and fall back to the standard language strings. You can require all regions to provide a full translation by setting the environment variable `ANDROID_LINT_COMPLETE_REGIONS`.
 
 You can tell lint (and other tools) which language is the default language in your `res/values/` folder by specifying `tools:locale=&quot;languageCode&quot;` for the root `&lt;resources>` element in your resource file. (The `tools` prefix refers to the namespace declaration `http://schemas.android.com/tools`.)"
-        errorLine1=" &lt;string name=&quot;welcome_link_url&quot;>&quot;http://www.kryptashare.com&quot;&lt;/string>"
+        errorLine1=" &lt;string name=&quot;welcome_link_url&quot;>&quot;http://www.iluq.com&quot;&lt;/string>"
         errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\setup.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\setup.xml"
             line="18"
             column="10"/>
     </issue>
@@ -610,7 +610,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="         ~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\setup.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\setup.xml"
             line="19"
             column="10"/>
     </issue>
@@ -633,7 +633,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\setup.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\setup.xml"
             line="22"
             column="13"/>
     </issue>
@@ -656,7 +656,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\setup.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\setup.xml"
             line="23"
             column="13"/>
     </issue>
@@ -679,7 +679,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\setup.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\setup.xml"
             line="26"
             column="13"/>
     </issue>
@@ -702,7 +702,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\setup.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\setup.xml"
             line="47"
             column="13"/>
     </issue>
@@ -725,7 +725,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\setup.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\setup.xml"
             line="48"
             column="13"/>
     </issue>
@@ -748,7 +748,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\setup.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\setup.xml"
             line="49"
             column="13"/>
     </issue>
@@ -767,11 +767,11 @@ If the string should *not* be translated, you can add the attribute `translatabl
 By default this detector allows regions of a language to just provide a subset of the strings and fall back to the standard language strings. You can require all regions to provide a full translation by setting the environment variable `ANDROID_LINT_COMPLETE_REGIONS`.
 
 You can tell lint (and other tools) which language is the default language in your `res/values/` folder by specifying `tools:locale=&quot;languageCode&quot;` for the root `&lt;resources>` element in your resource file. (The `tools` prefix refers to the namespace declaration `http://schemas.android.com/tools`.)"
-        errorLine1="    &lt;string name=&quot;mail_feedback&quot;>&quot;mailto:helpdesk@diversecti.net&quot;&lt;/string>"
+        errorLine1="    &lt;string name=&quot;mail_feedback&quot;>&quot;mailto:webmaster@iluq.net&quot;&lt;/string>"
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\setup.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\setup.xml"
             line="50"
             column="13"/>
     </issue>
@@ -790,11 +790,11 @@ If the string should *not* be translated, you can add the attribute `translatabl
 By default this detector allows regions of a language to just provide a subset of the strings and fall back to the standard language strings. You can require all regions to provide a full translation by setting the environment variable `ANDROID_LINT_COMPLETE_REGIONS`.
 
 You can tell lint (and other tools) which language is the default language in your `res/values/` folder by specifying `tools:locale=&quot;languageCode&quot;` for the root `&lt;resources>` element in your resource file. (The `tools` prefix refers to the namespace declaration `http://schemas.android.com/tools`.)"
-        errorLine1="    &lt;string name=&quot;url_app_download&quot;>&quot;https://my.kryptashare.com:444&quot;&lt;/string>"
+        errorLine1="    &lt;string name=&quot;url_app_download&quot;>&quot;https://www.iluq.net&quot;&lt;/string>"
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\setup.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\setup.xml"
             line="51"
             column="13"/>
     </issue>
@@ -817,7 +817,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\setup.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\setup.xml"
             line="54"
             column="13"/>
     </issue>
@@ -840,7 +840,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="4"
             column="13"/>
     </issue>
@@ -859,11 +859,11 @@ If the string should *not* be translated, you can add the attribute `translatabl
 By default this detector allows regions of a language to just provide a subset of the strings and fall back to the standard language strings. You can require all regions to provide a full translation by setting the environment variable `ANDROID_LINT_COMPLETE_REGIONS`.
 
 You can tell lint (and other tools) which language is the default language in your `res/values/` folder by specifying `tools:locale=&quot;languageCode&quot;` for the root `&lt;resources>` element in your resource file. (The `tools` prefix refers to the namespace declaration `http://schemas.android.com/tools`.)"
-        errorLine1="    &lt;string name=&quot;about_version&quot;>version %1$s&lt;/string>"
+        errorLine1="    &lt;string name=&quot;about_version&quot;>Version %1$s&lt;/string>"
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="5"
             column="13"/>
     </issue>
@@ -886,7 +886,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="6"
             column="13"/>
     </issue>
@@ -909,7 +909,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="7"
             column="13"/>
     </issue>
@@ -932,7 +932,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="8"
             column="13"/>
     </issue>
@@ -955,7 +955,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="9"
             column="13"/>
     </issue>
@@ -978,7 +978,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="10"
             column="13"/>
     </issue>
@@ -1001,7 +1001,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="11"
             column="13"/>
     </issue>
@@ -1024,7 +1024,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="12"
             column="13"/>
     </issue>
@@ -1047,7 +1047,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="13"
             column="13"/>
     </issue>
@@ -1070,7 +1070,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="14"
             column="13"/>
     </issue>
@@ -1093,7 +1093,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="15"
             column="13"/>
     </issue>
@@ -1116,7 +1116,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="16"
             column="13"/>
     </issue>
@@ -1139,7 +1139,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="                  ~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="17"
             column="19"/>
     </issue>
@@ -1162,7 +1162,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="23"
             column="13"/>
     </issue>
@@ -1185,7 +1185,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="24"
             column="13"/>
     </issue>
@@ -1208,7 +1208,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="25"
             column="13"/>
     </issue>
@@ -1231,7 +1231,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="26"
             column="13"/>
     </issue>
@@ -1254,7 +1254,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="27"
             column="13"/>
     </issue>
@@ -1277,7 +1277,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="28"
             column="13"/>
     </issue>
@@ -1300,7 +1300,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="29"
             column="13"/>
     </issue>
@@ -1323,7 +1323,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="30"
             column="13"/>
     </issue>
@@ -1346,7 +1346,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="31"
             column="13"/>
     </issue>
@@ -1369,7 +1369,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="32"
             column="13"/>
     </issue>
@@ -1392,7 +1392,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="33"
             column="13"/>
     </issue>
@@ -1415,7 +1415,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="34"
             column="13"/>
     </issue>
@@ -1438,7 +1438,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="35"
             column="13"/>
     </issue>
@@ -1461,7 +1461,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="36"
             column="13"/>
     </issue>
@@ -1484,7 +1484,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="37"
             column="13"/>
     </issue>
@@ -1507,7 +1507,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="38"
             column="13"/>
     </issue>
@@ -1530,7 +1530,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="39"
             column="13"/>
     </issue>
@@ -1553,7 +1553,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="40"
             column="13"/>
     </issue>
@@ -1576,7 +1576,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="41"
             column="13"/>
     </issue>
@@ -1599,7 +1599,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="42"
             column="13"/>
     </issue>
@@ -1622,7 +1622,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="43"
             column="13"/>
     </issue>
@@ -1645,7 +1645,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="45"
             column="10"/>
     </issue>
@@ -1668,7 +1668,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="         ~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="46"
             column="10"/>
     </issue>
@@ -1691,7 +1691,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="48"
             column="13"/>
     </issue>
@@ -1714,7 +1714,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="49"
             column="13"/>
     </issue>
@@ -1737,7 +1737,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="50"
             column="13"/>
     </issue>
@@ -1760,7 +1760,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="51"
             column="13"/>
     </issue>
@@ -1783,7 +1783,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="52"
             column="13"/>
     </issue>
@@ -1806,7 +1806,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="53"
             column="13"/>
     </issue>
@@ -1829,7 +1829,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="54"
             column="13"/>
     </issue>
@@ -1852,7 +1852,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="55"
             column="13"/>
     </issue>
@@ -1875,7 +1875,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="56"
             column="13"/>
     </issue>
@@ -1898,7 +1898,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="57"
             column="13"/>
     </issue>
@@ -1921,7 +1921,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="58"
             column="13"/>
     </issue>
@@ -1944,7 +1944,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="59"
             column="13"/>
     </issue>
@@ -1967,7 +1967,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="60"
             column="13"/>
     </issue>
@@ -1990,7 +1990,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="61"
             column="13"/>
     </issue>
@@ -2013,7 +2013,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="62"
             column="13"/>
     </issue>
@@ -2036,7 +2036,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="63"
             column="13"/>
     </issue>
@@ -2059,7 +2059,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="64"
             column="13"/>
     </issue>
@@ -2082,7 +2082,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="65"
             column="13"/>
     </issue>
@@ -2105,7 +2105,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="66"
             column="13"/>
     </issue>
@@ -2128,7 +2128,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="67"
             column="13"/>
     </issue>
@@ -2151,7 +2151,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="68"
             column="13"/>
     </issue>
@@ -2174,7 +2174,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="69"
             column="13"/>
     </issue>
@@ -2197,7 +2197,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="70"
             column="13"/>
     </issue>
@@ -2220,7 +2220,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="71"
             column="13"/>
     </issue>
@@ -2243,7 +2243,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="72"
             column="13"/>
     </issue>
@@ -2266,7 +2266,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="73"
             column="13"/>
     </issue>
@@ -2289,7 +2289,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="74"
             column="13"/>
     </issue>
@@ -2312,7 +2312,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="75"
             column="13"/>
     </issue>
@@ -2335,7 +2335,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="76"
             column="13"/>
     </issue>
@@ -2358,7 +2358,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="77"
             column="13"/>
     </issue>
@@ -2381,7 +2381,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="78"
             column="13"/>
     </issue>
@@ -2404,7 +2404,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="79"
             column="13"/>
     </issue>
@@ -2427,7 +2427,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="80"
             column="13"/>
     </issue>
@@ -2450,7 +2450,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="81"
             column="13"/>
     </issue>
@@ -2473,7 +2473,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="82"
             column="13"/>
     </issue>
@@ -2496,7 +2496,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="83"
             column="13"/>
     </issue>
@@ -2519,7 +2519,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="84"
             column="13"/>
     </issue>
@@ -2542,7 +2542,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="85"
             column="13"/>
     </issue>
@@ -2565,7 +2565,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="86"
             column="13"/>
     </issue>
@@ -2588,7 +2588,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="87"
             column="13"/>
     </issue>
@@ -2611,7 +2611,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="88"
             column="13"/>
     </issue>
@@ -2634,7 +2634,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="89"
             column="13"/>
     </issue>
@@ -2657,7 +2657,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="90"
             column="13"/>
     </issue>
@@ -2680,7 +2680,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="91"
             column="13"/>
     </issue>
@@ -2703,7 +2703,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="92"
             column="13"/>
     </issue>
@@ -2726,7 +2726,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="93"
             column="13"/>
     </issue>
@@ -2749,7 +2749,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="94"
             column="13"/>
     </issue>
@@ -2772,7 +2772,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="95"
             column="13"/>
     </issue>
@@ -2795,7 +2795,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="96"
             column="13"/>
     </issue>
@@ -2818,7 +2818,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="97"
             column="13"/>
     </issue>
@@ -2841,7 +2841,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="98"
             column="13"/>
     </issue>
@@ -2864,7 +2864,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="99"
             column="13"/>
     </issue>
@@ -2887,7 +2887,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="100"
             column="13"/>
     </issue>
@@ -2910,7 +2910,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="101"
             column="13"/>
     </issue>
@@ -2933,7 +2933,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="102"
             column="13"/>
     </issue>
@@ -2956,7 +2956,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="103"
             column="13"/>
     </issue>
@@ -2979,7 +2979,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="104"
             column="13"/>
     </issue>
@@ -3002,7 +3002,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="105"
             column="13"/>
     </issue>
@@ -3025,7 +3025,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="106"
             column="13"/>
     </issue>
@@ -3048,7 +3048,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="107"
             column="13"/>
     </issue>
@@ -3071,7 +3071,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="108"
             column="13"/>
     </issue>
@@ -3094,7 +3094,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="109"
             column="13"/>
     </issue>
@@ -3117,7 +3117,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="110"
             column="13"/>
     </issue>
@@ -3140,7 +3140,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="111"
             column="13"/>
     </issue>
@@ -3163,7 +3163,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="112"
             column="13"/>
     </issue>
@@ -3186,7 +3186,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="113"
             column="13"/>
     </issue>
@@ -3209,7 +3209,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="114"
             column="13"/>
     </issue>
@@ -3232,7 +3232,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="115"
             column="13"/>
     </issue>
@@ -3255,7 +3255,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="116"
             column="13"/>
     </issue>
@@ -3278,7 +3278,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="117"
             column="13"/>
     </issue>
@@ -3301,7 +3301,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="118"
             column="13"/>
     </issue>
@@ -3324,7 +3324,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="119"
             column="13"/>
     </issue>
@@ -3347,7 +3347,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="120"
             column="10"/>
     </issue>
@@ -3370,7 +3370,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="121"
             column="10"/>
     </issue>
@@ -3393,7 +3393,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="122"
             column="13"/>
     </issue>
@@ -3416,7 +3416,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="123"
             column="13"/>
     </issue>
@@ -3439,7 +3439,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="124"
             column="13"/>
     </issue>
@@ -3462,7 +3462,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="125"
             column="13"/>
     </issue>
@@ -3485,7 +3485,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="126"
             column="13"/>
     </issue>
@@ -3508,7 +3508,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="127"
             column="10"/>
     </issue>
@@ -3531,7 +3531,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="128"
             column="13"/>
     </issue>
@@ -3554,7 +3554,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="129"
             column="13"/>
     </issue>
@@ -3577,7 +3577,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="130"
             column="13"/>
     </issue>
@@ -3600,7 +3600,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="131"
             column="13"/>
     </issue>
@@ -3623,7 +3623,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="132"
             column="13"/>
     </issue>
@@ -3646,7 +3646,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="133"
             column="13"/>
     </issue>
@@ -3669,7 +3669,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="134"
             column="13"/>
     </issue>
@@ -3692,7 +3692,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="136"
             column="13"/>
     </issue>
@@ -3715,7 +3715,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="137"
             column="13"/>
     </issue>
@@ -3738,7 +3738,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="138"
             column="13"/>
     </issue>
@@ -3761,7 +3761,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="139"
             column="13"/>
     </issue>
@@ -3784,7 +3784,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="140"
             column="13"/>
     </issue>
@@ -3807,7 +3807,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="141"
             column="13"/>
     </issue>
@@ -3830,7 +3830,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="142"
             column="13"/>
     </issue>
@@ -3853,7 +3853,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="143"
             column="13"/>
     </issue>
@@ -3876,7 +3876,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="145"
             column="13"/>
     </issue>
@@ -3899,7 +3899,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="146"
             column="13"/>
     </issue>
@@ -3922,7 +3922,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="147"
             column="13"/>
     </issue>
@@ -3945,7 +3945,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="148"
             column="13"/>
     </issue>
@@ -3968,7 +3968,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="149"
             column="13"/>
     </issue>
@@ -3991,7 +3991,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="150"
             column="10"/>
     </issue>
@@ -4014,7 +4014,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="151"
             column="10"/>
     </issue>
@@ -4037,7 +4037,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="152"
             column="10"/>
     </issue>
@@ -4060,7 +4060,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="         ~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="153"
             column="10"/>
     </issue>
@@ -4083,7 +4083,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="154"
             column="10"/>
     </issue>
@@ -4106,7 +4106,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="155"
             column="10"/>
     </issue>
@@ -4129,7 +4129,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="156"
             column="10"/>
     </issue>
@@ -4152,7 +4152,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="157"
             column="10"/>
     </issue>
@@ -4175,7 +4175,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="158"
             column="10"/>
     </issue>
@@ -4198,7 +4198,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="159"
             column="10"/>
     </issue>
@@ -4221,7 +4221,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="160"
             column="10"/>
     </issue>
@@ -4244,7 +4244,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="161"
             column="10"/>
     </issue>
@@ -4267,7 +4267,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="162"
             column="10"/>
     </issue>
@@ -4290,7 +4290,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="163"
             column="10"/>
     </issue>
@@ -4313,7 +4313,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="165"
             column="10"/>
     </issue>
@@ -4336,7 +4336,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="166"
             column="10"/>
     </issue>
@@ -4359,7 +4359,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="167"
             column="10"/>
     </issue>
@@ -4382,7 +4382,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="168"
             column="10"/>
     </issue>
@@ -4405,7 +4405,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="169"
             column="10"/>
     </issue>
@@ -4428,7 +4428,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="170"
             column="10"/>
     </issue>
@@ -4451,7 +4451,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="171"
             column="10"/>
     </issue>
@@ -4474,7 +4474,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="172"
             column="10"/>
     </issue>
@@ -4497,7 +4497,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="173"
             column="10"/>
     </issue>
@@ -4520,7 +4520,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="174"
             column="10"/>
     </issue>
@@ -4543,7 +4543,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="175"
             column="10"/>
     </issue>
@@ -4566,7 +4566,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="176"
             column="10"/>
     </issue>
@@ -4589,7 +4589,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="177"
             column="10"/>
     </issue>
@@ -4612,7 +4612,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="178"
             column="10"/>
     </issue>
@@ -4635,7 +4635,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="179"
             column="10"/>
     </issue>
@@ -4658,7 +4658,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="180"
             column="10"/>
     </issue>
@@ -4681,7 +4681,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="181"
             column="10"/>
     </issue>
@@ -4704,7 +4704,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="182"
             column="10"/>
     </issue>
@@ -4727,7 +4727,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="183"
             column="10"/>
     </issue>
@@ -4750,7 +4750,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="184"
             column="10"/>
     </issue>
@@ -4773,7 +4773,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="185"
             column="10"/>
     </issue>
@@ -4796,7 +4796,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="186"
             column="10"/>
     </issue>
@@ -4819,7 +4819,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="187"
             column="10"/>
     </issue>
@@ -4842,7 +4842,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="188"
             column="10"/>
     </issue>
@@ -4865,7 +4865,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="189"
             column="10"/>
     </issue>
@@ -4888,7 +4888,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="190"
             column="10"/>
     </issue>
@@ -4911,7 +4911,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="191"
             column="10"/>
     </issue>
@@ -4934,7 +4934,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="192"
             column="10"/>
     </issue>
@@ -4957,7 +4957,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="193"
             column="10"/>
     </issue>
@@ -4980,7 +4980,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="194"
             column="10"/>
     </issue>
@@ -5003,7 +5003,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="196"
             column="10"/>
     </issue>
@@ -5026,7 +5026,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="197"
             column="13"/>
     </issue>
@@ -5049,7 +5049,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="199"
             column="13"/>
     </issue>
@@ -5072,7 +5072,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="200"
             column="13"/>
     </issue>
@@ -5095,7 +5095,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="201"
             column="13"/>
     </issue>
@@ -5118,7 +5118,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="202"
             column="13"/>
     </issue>
@@ -5141,7 +5141,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="203"
             column="13"/>
     </issue>
@@ -5164,7 +5164,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="204"
             column="13"/>
     </issue>
@@ -5187,7 +5187,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="205"
             column="13"/>
     </issue>
@@ -5210,7 +5210,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="206"
             column="13"/>
     </issue>
@@ -5233,7 +5233,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="207"
             column="13"/>
     </issue>
@@ -5256,7 +5256,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="208"
             column="13"/>
     </issue>
@@ -5279,7 +5279,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="209"
             column="13"/>
     </issue>
@@ -5302,7 +5302,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="210"
             column="13"/>
     </issue>
@@ -5325,7 +5325,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="211"
             column="13"/>
     </issue>
@@ -5348,7 +5348,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="212"
             column="13"/>
     </issue>
@@ -5371,7 +5371,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="213"
             column="13"/>
     </issue>
@@ -5394,7 +5394,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="214"
             column="13"/>
     </issue>
@@ -5417,7 +5417,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="215"
             column="13"/>
     </issue>
@@ -5440,7 +5440,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="216"
             column="13"/>
     </issue>
@@ -5463,7 +5463,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="217"
             column="13"/>
     </issue>
@@ -5486,7 +5486,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="218"
             column="13"/>
     </issue>
@@ -5509,7 +5509,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="219"
             column="13"/>
     </issue>
@@ -5532,7 +5532,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="220"
             column="13"/>
     </issue>
@@ -5555,7 +5555,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="221"
             column="13"/>
     </issue>
@@ -5578,7 +5578,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="223"
             column="13"/>
     </issue>
@@ -5601,7 +5601,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="224"
             column="13"/>
     </issue>
@@ -5624,7 +5624,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="226"
             column="13"/>
     </issue>
@@ -5647,7 +5647,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="227"
             column="13"/>
     </issue>
@@ -5670,7 +5670,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="228"
             column="13"/>
     </issue>
@@ -5693,7 +5693,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="229"
             column="13"/>
     </issue>
@@ -5716,7 +5716,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="230"
             column="13"/>
     </issue>
@@ -5739,7 +5739,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="231"
             column="13"/>
     </issue>
@@ -5762,7 +5762,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="232"
             column="13"/>
     </issue>
@@ -5785,7 +5785,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="233"
             column="13"/>
     </issue>
@@ -5808,7 +5808,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="234"
             column="13"/>
     </issue>
@@ -5831,7 +5831,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="235"
             column="13"/>
     </issue>
@@ -5854,7 +5854,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="236"
             column="13"/>
     </issue>
@@ -5877,7 +5877,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="237"
             column="13"/>
     </issue>
@@ -5900,7 +5900,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="238"
             column="13"/>
     </issue>
@@ -5923,7 +5923,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="239"
             column="13"/>
     </issue>
@@ -5946,7 +5946,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="240"
             column="13"/>
     </issue>
@@ -5969,7 +5969,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="241"
             column="13"/>
     </issue>
@@ -5992,7 +5992,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="242"
             column="13"/>
     </issue>
@@ -6015,7 +6015,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="243"
             column="13"/>
     </issue>
@@ -6038,7 +6038,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="244"
             column="13"/>
     </issue>
@@ -6061,7 +6061,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="245"
             column="10"/>
     </issue>
@@ -6084,7 +6084,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="246"
             column="10"/>
     </issue>
@@ -6107,7 +6107,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="247"
             column="10"/>
     </issue>
@@ -6130,7 +6130,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="248"
             column="10"/>
     </issue>
@@ -6153,7 +6153,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="249"
             column="10"/>
     </issue>
@@ -6176,7 +6176,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="251"
             column="13"/>
     </issue>
@@ -6199,7 +6199,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="252"
             column="13"/>
     </issue>
@@ -6222,7 +6222,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="253"
             column="13"/>
     </issue>
@@ -6245,7 +6245,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="254"
             column="13"/>
     </issue>
@@ -6268,7 +6268,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="255"
             column="13"/>
     </issue>
@@ -6291,7 +6291,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="256"
             column="13"/>
     </issue>
@@ -6314,7 +6314,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="258"
             column="13"/>
     </issue>
@@ -6337,7 +6337,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="259"
             column="13"/>
     </issue>
@@ -6360,7 +6360,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="260"
             column="13"/>
     </issue>
@@ -6383,7 +6383,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="261"
             column="13"/>
     </issue>
@@ -6406,7 +6406,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="262"
             column="13"/>
     </issue>
@@ -6429,7 +6429,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="263"
             column="13"/>
     </issue>
@@ -6452,7 +6452,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="264"
             column="13"/>
     </issue>
@@ -6475,7 +6475,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="265"
             column="13"/>
     </issue>
@@ -6498,7 +6498,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="267"
             column="13"/>
     </issue>
@@ -6521,7 +6521,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="268"
             column="13"/>
     </issue>
@@ -6544,7 +6544,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="270"
             column="13"/>
     </issue>
@@ -6567,7 +6567,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="271"
             column="13"/>
     </issue>
@@ -6590,7 +6590,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="273"
             column="10"/>
     </issue>
@@ -6613,7 +6613,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="275"
             column="10"/>
     </issue>
@@ -6636,7 +6636,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="276"
             column="10"/>
     </issue>
@@ -6659,7 +6659,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="277"
             column="10"/>
     </issue>
@@ -6682,7 +6682,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="278"
             column="10"/>
     </issue>
@@ -6705,7 +6705,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="279"
             column="13"/>
     </issue>
@@ -6728,7 +6728,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="280"
             column="13"/>
     </issue>
@@ -6751,7 +6751,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="282"
             column="10"/>
     </issue>
@@ -6774,7 +6774,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="         ~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="284"
             column="10"/>
     </issue>
@@ -6797,7 +6797,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="285"
             column="10"/>
     </issue>
@@ -6820,7 +6820,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="287"
             column="10"/>
     </issue>
@@ -6843,7 +6843,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="289"
             column="10"/>
     </issue>
@@ -6866,7 +6866,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="290"
             column="10"/>
     </issue>
@@ -6889,7 +6889,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="291"
             column="10"/>
     </issue>
@@ -6912,7 +6912,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="292"
             column="10"/>
     </issue>
@@ -6935,7 +6935,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="         ~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="294"
             column="10"/>
     </issue>
@@ -6958,7 +6958,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="296"
             column="10"/>
     </issue>
@@ -6981,7 +6981,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="297"
             column="10"/>
     </issue>
@@ -7004,7 +7004,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="298"
             column="10"/>
     </issue>
@@ -7027,7 +7027,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="299"
             column="10"/>
     </issue>
@@ -7050,7 +7050,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="300"
             column="10"/>
     </issue>
@@ -7073,7 +7073,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="301"
             column="10"/>
     </issue>
@@ -7096,7 +7096,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="302"
             column="10"/>
     </issue>
@@ -7119,7 +7119,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="303"
             column="10"/>
     </issue>
@@ -7142,7 +7142,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="305"
             column="10"/>
     </issue>
@@ -7165,7 +7165,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="306"
             column="10"/>
     </issue>
@@ -7188,7 +7188,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="307"
             column="10"/>
     </issue>
@@ -7211,7 +7211,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="309"
             column="10"/>
     </issue>
@@ -7234,7 +7234,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="310"
             column="10"/>
     </issue>
@@ -7257,7 +7257,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="311"
             column="10"/>
     </issue>
@@ -7280,7 +7280,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="312"
             column="10"/>
     </issue>
@@ -7303,7 +7303,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="313"
             column="10"/>
     </issue>
@@ -7326,7 +7326,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="315"
             column="10"/>
     </issue>
@@ -7349,7 +7349,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="316"
             column="10"/>
     </issue>
@@ -7372,7 +7372,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="         ~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="317"
             column="10"/>
     </issue>
@@ -7395,7 +7395,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="318"
             column="10"/>
     </issue>
@@ -7418,7 +7418,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="319"
             column="10"/>
     </issue>
@@ -7441,7 +7441,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="321"
             column="10"/>
     </issue>
@@ -7464,7 +7464,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="322"
             column="10"/>
     </issue>
@@ -7487,7 +7487,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="323"
             column="10"/>
     </issue>
@@ -7510,7 +7510,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="324"
             column="10"/>
     </issue>
@@ -7533,7 +7533,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="325"
             column="10"/>
     </issue>
@@ -7556,7 +7556,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="327"
             column="10"/>
     </issue>
@@ -7579,7 +7579,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="328"
             column="10"/>
     </issue>
@@ -7602,7 +7602,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="330"
             column="10"/>
     </issue>
@@ -7625,7 +7625,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="331"
             column="13"/>
     </issue>
@@ -7648,7 +7648,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="         ~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="333"
             column="10"/>
     </issue>
@@ -7671,7 +7671,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="335"
             column="13"/>
     </issue>
@@ -7694,7 +7694,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values\strings.xml"
             line="336"
             column="13"/>
     </issue>
@@ -7712,7 +7712,7 @@ Note that these strings can lead to crashes if the string is looked up on any lo
         errorLine1="  &lt;string name=&quot;move_choose_button_text&quot;>Auswählen&lt;/string>"
         errorLine2="          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\kenny\Projects\Kryptashare\res\values-de-rCH\strings.xml"
+            file="C:\Users\kenny\Projects\Iluq-Cloud\res\values-de-rCH\strings.xml"
             line="202"
             column="11"/>
     </issue>

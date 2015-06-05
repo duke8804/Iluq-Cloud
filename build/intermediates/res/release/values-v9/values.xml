@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/C:/Users/kenny/Projects/Kryptashare/res/values-v9/colors.xml -->
+    <!-- From: file:/C:/Users/kenny/Projects/Iluq-Cloud/res/values-v9/colors.xml -->
     <eat-comment/>
-    <color name="button_background_color">#BE1E2D</color>
-    <!-- From: file:/C:/Users/kenny/Projects/Kryptashare/res/values-v9/versioned_styles.xml -->
+    <color name="button_background_color">#0099CC</color>
+    <color name="textcolorhint">#B8B8B8</color>
+    <!-- From: file:/C:/Users/kenny/Projects/Iluq-Cloud/res/values-v9/versioned_styles.xml -->
     <eat-comment/>
     <style name="Theme.ownCloud.NotificationText.Content" parent="@android:style/TextAppearance.StatusBar.EventContent"/>
     <style name="Theme.ownCloud.NotificationText.Title" parent="@android:style/TextAppearance.StatusBar.EventContent.Title"/>

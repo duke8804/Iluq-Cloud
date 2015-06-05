@@ -18,9 +18,9 @@
   along with this program.  If not, see <http://www.gnu.org/licenses/>.
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.kryptashare.android"
-    android:versionCode="10700100"
-    android:versionName="1.7.1" >
+    package="com.iluq_cloud.android"
+    android:versionCode="2"
+    android:versionName="0.2" >
 
     <uses-sdk
         android:minSdkVersion="9"
@@ -43,12 +43,12 @@
     </uses-permission>
 
     <application
-        android:name="com.kryptashare.android.MainApp"
+        android:name="com.iluq_cloud.android.MainApp"
         android:icon="@drawable/icon"
         android:label="@string/app_name"
         android:theme="@style/Theme.ownCloud" >
         <activity
-            android:name="com.kryptashare.android.ui.activity.FileDisplayActivity"
+            android:name="com.iluq_cloud.android.ui.activity.FileDisplayActivity"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -56,9 +56,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.kryptashare.android.ui.activity.UploadFilesActivity" >
+        <activity android:name="com.iluq_cloud.android.ui.activity.UploadFilesActivity" >
         </activity>
-        <activity android:name="com.kryptashare.android.ui.activity.Uploader" >
+        <activity android:name="com.iluq_cloud.android.ui.activity.Uploader" >
             <intent-filter>
                 <action android:name="android.intent.action.SEND" >
                 </action>
@@ -81,18 +81,18 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.kryptashare.android.ui.activity.Preferences"
+            android:name="com.iluq_cloud.android.ui.activity.Preferences"
             android:theme="@style/Theme.ownCloud" >
         </activity>
-        <activity android:name="com.kryptashare.android.ui.preview.PreviewImageActivity" />
+        <activity android:name="com.iluq_cloud.android.ui.preview.PreviewImageActivity" />
         <activity
-            android:name="com.kryptashare.android.ui.preview.PreviewVideoActivity"
+            android:name="com.iluq_cloud.android.ui.preview.PreviewVideoActivity"
             android:label="@string/app_name"
             android:theme="@style/Theme.ownCloud.Fullscreen" >
         </activity>
 
         <service
-            android:name="com.kryptashare.android.authentication.AccountAuthenticatorService"
+            android:name="com.iluq_cloud.android.authentication.AccountAuthenticatorService"
             android:exported="true" >
             <intent-filter android:priority="100" >
                 <action android:name="android.accounts.AccountAuthenticator" />
@@ -103,7 +103,7 @@
                 android:resource="@xml/authenticator" />
         </service>
         <service
-            android:name="com.kryptashare.android.syncadapter.FileSyncService"
+            android:name="com.iluq_cloud.android.syncadapter.FileSyncService"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.content.SyncAdapter" />
@@ -115,7 +115,7 @@
         </service>
 
         <provider
-            android:name="com.kryptashare.android.providers.FileContentProvider"
+            android:name="com.iluq_cloud.android.providers.FileContentProvider"
             android:authorities="@string/authority"
             android:enabled="true"
             android:exported="false"
@@ -124,7 +124,7 @@
         </provider>
 
         <activity
-            android:name="com.kryptashare.android.authentication.AuthenticatorActivity"
+            android:name="com.iluq_cloud.android.authentication.AuthenticatorActivity"
             android:exported="true"
             android:launchMode="singleTask"
             android:theme="@style/Theme.ownCloud.noActionBar" >
@@ -137,24 +137,24 @@
                 <data android:scheme="@string/oauth2_redirect_scheme" />
             </intent-filter>
             <intent-filter>
-                <action android:name="com.kryptashare.android.workaround.accounts.CREATE" />
+                <action android:name="com.iluq_cloud.android.workaround.accounts.CREATE" />
 
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
 
-        <service android:name="com.kryptashare.android.services.OperationsService" />
-        <service android:name="com.kryptashare.android.files.services.FileDownloader" />
-        <service android:name="com.kryptashare.android.files.services.FileUploader" />
-        <service android:name="com.kryptashare.android.media.MediaService" />
+        <service android:name="com.iluq_cloud.android.services.OperationsService" />
+        <service android:name="com.iluq_cloud.android.files.services.FileDownloader" />
+        <service android:name="com.iluq_cloud.android.files.services.FileUploader" />
+        <service android:name="com.iluq_cloud.android.media.MediaService" />
 
-        <activity android:name="com.kryptashare.android.ui.activity.PinCodeActivity" />
-        <activity android:name="com.kryptashare.android.ui.activity.ConflictsResolveActivity" />
-        <activity android:name="com.kryptashare.android.ui.activity.GenericExplanationActivity" />
-        <activity android:name="com.kryptashare.android.ui.activity.ErrorsWhileCopyingHandlerActivity" />
-        <activity android:name="com.kryptashare.android.ui.activity.LogHistoryActivity" />
+        <activity android:name="com.iluq_cloud.android.ui.activity.PinCodeActivity" />
+        <activity android:name="com.iluq_cloud.android.ui.activity.ConflictsResolveActivity" />
+        <activity android:name="com.iluq_cloud.android.ui.activity.GenericExplanationActivity" />
+        <activity android:name="com.iluq_cloud.android.ui.activity.ErrorsWhileCopyingHandlerActivity" />
+        <activity android:name="com.iluq_cloud.android.ui.activity.LogHistoryActivity" />
 
-        <receiver android:name="com.kryptashare.android.files.InstantUploadBroadcastReceiver" >
+        <receiver android:name="com.iluq_cloud.android.files.InstantUploadBroadcastReceiver" >
             <intent-filter>
 
                 <!-- unofficially supported by many Android phones but not by HTC devices: -->
@@ -173,23 +173,23 @@
                 <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
             </intent-filter>
         </receiver>
-        <receiver android:name="com.kryptashare.android.files.BootupBroadcastReceiver" >
+        <receiver android:name="com.iluq_cloud.android.files.BootupBroadcastReceiver" >
             <intent-filter>
                 <action android:name="android.intent.action.BOOT_COMPLETED" />
             </intent-filter>
         </receiver>
 
-        <service android:name="com.kryptashare.android.services.observer.FileObserverService" />
+        <service android:name="com.iluq_cloud.android.services.observer.FileObserverService" />
 
         <activity
-            android:name="com.kryptashare.android.ui.activity.CopyToClipboardActivity"
+            android:name="com.iluq_cloud.android.ui.activity.CopyToClipboardActivity"
             android:icon="@drawable/copy_link"
             android:label="@string/copy_link" />
         <activity
-            android:name="com.kryptashare.android.ui.activity.FolderPickerActivity"
+            android:name="com.iluq_cloud.android.ui.activity.FolderPickerActivity"
             android:label="@string/app_name" />
         <activity
-            android:name="com.kryptashare.android.ui.activity.UploadPathActivity"
+            android:name="com.iluq_cloud.android.ui.activity.UploadPathActivity"
             android:label="@string/app_name" />
     </application>
 

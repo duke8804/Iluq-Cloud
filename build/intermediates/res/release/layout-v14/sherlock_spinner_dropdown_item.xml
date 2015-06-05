@@ -24,4 +24,4 @@
     android:layout_width="match_parent"
     android:layout_height="?attr/dropdownListPreferredItemHeight"
     android:ellipsize="marquee" />
-<!-- From: file:/C:/Users/kenny/Projects/Kryptashare/build/intermediates/exploded-aar/Kryptashare/libs@actionbarsherlock_lib/unspecified/res/layout-v14/sherlock_spinner_dropdown_item.xml -->
+<!-- From: file:/C:/Users/kenny/Projects/Iluq-Cloud/build/intermediates/exploded-aar/Iluq-Cloud/libs@actionbarsherlock_lib/unspecified/res/layout-v14/sherlock_spinner_dropdown_item.xml -->

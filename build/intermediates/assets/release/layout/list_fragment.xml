@@ -31,7 +31,7 @@
         android:footerDividersEnabled="false"
         android:visibility="visible" >
         
-        <com.kryptashare.android.ui.ExtendedListView
+        <com.iluq_cloud.android.ui.ExtendedListView
             android:id="@+id/list_root"
             android:layout_width="match_parent"
             android:layout_height="match_parent"

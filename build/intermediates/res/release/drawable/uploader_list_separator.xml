@@ -20,4 +20,4 @@
 <shape
   xmlns:android="http://schemas.android.com/apk/res/android">
     <gradient android:startColor="@color/filelist_icon_backgorund" android:endColor="@color/filelist_icon_backgorund" android:angle="0"/>
-</shape><!-- From: file:/C:/Users/kenny/Projects/Kryptashare/res/drawable/uploader_list_separator.xml -->
+</shape><!-- From: file:/C:/Users/kenny/Projects/Iluq-Cloud/res/drawable/uploader_list_separator.xml -->

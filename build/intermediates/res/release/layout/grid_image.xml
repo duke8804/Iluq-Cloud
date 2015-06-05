@@ -29,7 +29,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content" >
 
-        <com.kryptashare.android.ui.SquareImageView
+        <com.iluq_cloud.android.ui.SquareImageView
             android:id="@+id/thumbnail"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -83,4 +83,4 @@
             android:src="@drawable/ic_favorite" />
     </FrameLayout>
 
-</LinearLayout><!-- From: file:/C:/Users/kenny/Projects/Kryptashare/res/layout/grid_image.xml -->
+</LinearLayout><!-- From: file:/C:/Users/kenny/Projects/Iluq-Cloud/res/layout/grid_image.xml -->

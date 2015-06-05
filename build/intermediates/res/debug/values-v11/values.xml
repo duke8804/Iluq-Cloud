@@ -2,7 +2,7 @@
 <resources>
     <!-- From: file:/C:/Users/kenny/Projects/Iluq-Cloud/res/values-v11/colors.xml -->
     <eat-comment/>
-    <color name="button_background_color">#BE1E2D</color>
+    <color name="button_background_color">#0099CC</color>
     <color name="textcolorhint">#B8B8B8</color>
     <!-- From: file:/C:/Users/kenny/Projects/Iluq-Cloud/build/intermediates/exploded-aar/Iluq-Cloud/libs@actionbarsherlock_lib/unspecified/res/values-v11/abs__themes.xml -->
     <eat-comment/>
