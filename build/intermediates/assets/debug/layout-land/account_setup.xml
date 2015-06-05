@@ -93,7 +93,7 @@
 						android:drawablePadding="5dp"
 						android:paddingRight="55dp"
 						android:contentDescription="@string/auth_host_address"
-						android:textColorHint="#BE1E2D">
+						android:textColorHint="@color/textcolorhint">
 						<requestFocus />
 					</EditText>
 					<ImageButton
@@ -122,8 +122,8 @@
 					android:gravity="center_vertical"
 					android:text="@string/auth_testing_connection"
                     android:contentDescription="@string/auth_testing_connection"
-					android:textColorHint="#BE1E2D"
-					android:textColor="#BE1E2D" />
+					android:textColorHint="@color/textcolorhint"
+					android:textColor="#FFFFFF" />
 		             
 				<CheckBox
 					android:id="@+id/oauth_onOff_check"
@@ -169,7 +169,7 @@
 					android:hint="@string/auth_username"
 					android:inputType="textNoSuggestions"
 					android:contentDescription="@string/auth_username"
-					android:textColorHint="#BE1E2D" />
+					android:textColorHint="@color/textcolorhint" />
 		
 				<EditText
 				    android:id="@+id/account_password"
@@ -180,7 +180,7 @@
 					android:inputType="textPassword"
 					android:drawablePadding="5dp"
 					android:contentDescription="@string/auth_password"
-					android:textColorHint="#BE1E2D" />
+					android:textColorHint="@color/textcolorhint" />
 		        
 				<TextView
 					android:id="@+id/auth_status_text"
@@ -214,7 +214,9 @@
 		    android:enabled="false"
 		    android:onClick="onOkClick"
 		    android:text="@string/setup_btn_connect"
-            android:contentDescription="@string/setup_btn_connect"/>
+            android:contentDescription="@string/setup_btn_connect"
+			android:textColor="#FFFFFF"
+			android:background="#0099CC" />
 		
 		<Button
 		    android:id="@+id/welcome_link"
@@ -226,7 +228,7 @@
 		    android:paddingBottom="5dp"
 		    android:paddingTop="5dp"
 		    android:text="@string/auth_register"
-		    android:textColor="#0000FF"
+		    android:textColor="#FFFFFF"
             android:contentDescription="@string/auth_register"/>
 	</LinearLayout>
 		
