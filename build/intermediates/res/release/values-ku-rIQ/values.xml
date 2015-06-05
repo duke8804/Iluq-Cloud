@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/C:/Users/kenny/Projects/Kryptashare/res/values-ku-rIQ/colors.xml -->
+    <eat-comment/>
+    <color name="button_background_color">#BE1E2D</color>
+    <!-- From: file:/C:/Users/kenny/Projects/Kryptashare/res/values-ku-rIQ/strings.xml -->
+    <eat-comment/>
+    <string name="actionbar_settings">ده‌ستكاری</string>
+    <string name="actionbar_upload">بارکردن</string>
+    <string name="actionbar_upload_files">په‌ڕگەکان</string>
+    <string name="auth_host_address">ناونیشانی ڕاژه</string>
+    <string name="auth_password">وشەی تێپەربو</string>
+    <string name="auth_username">ناوی به‌کارهێنه‌ر</string>
+    <string name="common_cancel">لابردن</string>
+    <string name="common_error">هه‌ڵه</string>
+    <string name="common_no">نەخێر</string>
+    <string name="common_ok">باشە</string>
+    <string name="common_save_exit">پاشکەوتکردن &amp; دەرچوون</string>
+    <string name="common_yes">بەڵێ</string>
+    <string name="empty"/>
+    <string name="filedetails_created">درووستبووە:</string>
+    <string name="filedetails_download">داگرتن</string>
+    <string name="filedetails_modified">گۆردراو:</string>
+    <string name="filedetails_size">قەبارە:</string>
+    <string name="filedetails_type">جۆر:</string>
+    <string name="prefs_accounts">هەژمارەکان</string>
+    <string name="prefs_category_accounts">هەژمارەکان</string>
+    <string name="prefs_category_general">گشتی</string>
+    <string name="prefs_help">یارمەتی</string>
+    <string name="setup_btn_connect">بەستنەوە</string>
+    <string name="sync_string_files">په‌ڕگەکان</string>
+    <string name="uploader_btn_upload_text">بارکردن</string>
+    <string name="uploader_info_dirname">ناوی بوخچه</string>
+    <string name="uploader_info_uploading">بارکردن</string>
+    <string name="uploader_wrn_no_account_quit_btn_text">دەرچوون</string>
+    <string name="uploader_wrn_no_account_setup_btn_text">جێگیرکردن</string>
+    <string name="uploader_wrn_no_account_title">هیچ هەژمارێک نه‌دۆزرایه‌وه‌</string>
+</resources>

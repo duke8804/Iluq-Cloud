@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/C:/Users/kenny/Projects/Kryptashare/res/values-be/colors.xml -->
+    <eat-comment/>
+    <color name="button_background_color">#BE1E2D</color>
+    <!-- From: file:/C:/Users/kenny/Projects/Kryptashare/res/values-be/strings.xml -->
+    <eat-comment/>
+    <string name="actionbar_settings">Налады</string>
+    <string name="common_error">Памылка</string>
+    <string name="common_no">Не</string>
+    <string name="common_ok">Добра</string>
+    <string name="common_yes">Так</string>
+    <string name="empty"/>
+    <string name="file_list_seconds_ago">Секунд таму</string>
+    <string name="folder_picker_choose_button_text">Выбар</string>
+</resources>

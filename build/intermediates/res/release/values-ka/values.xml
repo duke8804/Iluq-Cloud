@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/C:/Users/kenny/Projects/Kryptashare/res/values-ka/colors.xml -->
+    <eat-comment/>
+    <color name="button_background_color">#BE1E2D</color>
+    <!-- From: file:/C:/Users/kenny/Projects/Kryptashare/res/values-ka/strings.xml -->
+    <eat-comment/>
+    <string name="actionbar_upload_files">ფაილები</string>
+    <string name="auth_password">პაროლი</string>
+    <string name="filedetails_download">გადმოწერა</string>
+    <string name="prefs_help">შველა</string>
+    <string name="sync_string_files">ფაილები</string>
+</resources>

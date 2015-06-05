@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ownCloud Android client application
+
+  Copyright (C) 2012  Bartek Przybylski
+  Copyright (C) 2015 ownCloud Inc.
+
+  This program is free software: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License version 2,
+  as published by the Free Software Foundation.
+
+  This program is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+  GNU General Public License for more details.
+
+  You should have received a copy of the GNU General Public License
+  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+-->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:fillViewport="true"
+    android:orientation="vertical" 
+    android:id="@+id/scroll"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/login_background_color"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="8dp" >
+
+        <ImageView
+            android:id="@+id/thumbnail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/login_logo_background_color"
+            android:src="@drawable/logo"
+            android:contentDescription="@string/app_name"/>
+
+        <Button
+            android:id="@+id/centeredRefreshButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="10dp"
+            android:onClick="onRefreshClick"
+            android:text="@string/auth_check_server"
+            android:visibility="gone"
+            android:contentDescription="@string/auth_check_server"/>
+        
+        <TextView
+            android:id="@+id/instructions_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="fill_horizontal"
+            android:text="@string/auth_expired_basic_auth_toast"
+            android:visibility="gone"
+            android:layout_marginBottom="10dp"
+            android:contentDescription="@string/auth_expired_basic_auth_toast"/>
+
+	    <FrameLayout 
+	        android:id="@+id/hostUrlFrame"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+	        >
+			<EditText
+				android:id="@+id/hostUrlInput"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_gravity="bottom"
+				android:hint="@string/auth_host_url"
+				android:inputType="textUri"
+				android:drawablePadding="5dp"
+				android:paddingRight="55dp"
+				android:contentDescription="@string/auth_host_address"
+                android:textColorHint="#BE1E2D">
+				<requestFocus />
+			</EditText>
+			<ImageButton
+			    android:id="@+id/embeddedRefreshButton"
+			    android:layout_width="48dp"
+			    android:layout_height="48dp"
+			    android:layout_gravity="center_vertical|right"
+			    android:layout_marginRight="5dp"
+			    android:padding="0dp"
+			    android:scaleType="fitCenter"
+			    android:src="@drawable/ic_action_refresh_black"
+            	android:onClick="onRefreshClick"
+				android:visibility="gone"
+				android:background="@android:color/transparent"
+                android:contentDescription="@string/auth_refresh_button"
+			    />
+		</FrameLayout>
+
+		<TextView
+            android:id="@+id/server_status_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:drawableLeft="@android:drawable/stat_notify_sync"
+            android:drawablePadding="5dp"
+            android:gravity="center_vertical"
+            android:text="@string/auth_testing_connection"
+            android:contentDescription="@string/auth_testing_connection"
+            android:textColor="#BE1E2D" />
+
+        <CheckBox
+            android:id="@+id/oauth_onOff_check"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:onClick="onCheckClick"
+            android:text="@string/oauth_check_onoff"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:contentDescription="@string/oauth_check_onoff"
+            />
+
+        <EditText
+            android:id="@+id/oAuthEntryPoint_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+			android:enabled="false"
+            android:text="@string/oauth2_url_endpoint_auth"
+            android:singleLine="true"
+            android:inputType="textUri"
+            android:visibility="gone">
+        </EditText>
+
+        <EditText
+            android:id="@+id/oAuthEntryPoint_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+			android:enabled="false"
+            android:text="@string/oauth2_url_endpoint_access"
+            android:singleLine="true"
+            android:inputType="textUri"
+            android:visibility="gone"/>
+
+        <EditText
+            android:id="@+id/account_username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/auth_username"
+            android:inputType="textNoSuggestions"
+            android:contentDescription="@string/auth_username"
+            android:textColorHint="#BE1E2D" />
+
+		<EditText
+		    android:id="@+id/account_password"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:drawablePadding="5dp"
+		    android:ems="10"
+		    android:hint="@string/auth_password"
+		    android:inputType="textPassword"
+		    android:contentDescription="@string/auth_password"
+            android:textColorHighlight="#BE1E2D"
+            android:textColorHint="#BE1E2D" />
+        
+        <TextView
+            android:id="@+id/auth_status_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:drawableLeft="@android:drawable/stat_notify_sync"
+            android:drawablePadding="5dp"
+            android:gravity="center_vertical"
+            android:text="@string/auth_unauthorized"
+            android:contentDescription="@string/auth_unauthorized"
+            android:textColor="#BE1E2D" />
+
+        <Button
+            android:id="@+id/buttonOK"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:enabled="false"
+            android:onClick="onOkClick"
+            android:text="@string/setup_btn_connect"
+            android:contentDescription="@string/setup_btn_connect"
+            android:background="@color/button_background_color"
+            android:textColor="#fff" />
+
+        <Button
+            android:id="@+id/welcome_link"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:onClick="onRegisterClick"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            android:text="@string/auth_register"
+            android:textColor="#0000FF"
+            android:contentDescription="@string/auth_register"/>
+
+    </LinearLayout>
+
+</ScrollView><!-- From: file:/C:/Users/kenny/Projects/Iluq-Cloud/res/layout/account_setup.xml -->

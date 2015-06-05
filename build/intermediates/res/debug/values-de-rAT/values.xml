@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/C:/Users/kenny/Projects/Iluq-Cloud/res/values-de-rAT/colors.xml -->
+    <eat-comment/>
+    <color name="button_background_color">#BE1E2D</color>
+    <!-- From: file:/C:/Users/kenny/Projects/Iluq-Cloud/res/values-de-rAT/strings.xml -->
+    <eat-comment/>
+    <string name="actionbar_settings">Einstellungen</string>
+    <string name="actionbar_upload_files">Dateien</string>
+    <string name="auth_host_address">Adresse des Servers</string>
+    <string name="auth_password">Passwort</string>
+    <string name="common_cancel">Abbrechen</string>
+    <string name="common_error">Fehler</string>
+    <string name="empty"/>
+    <string name="filedetails_download">Herunterladen</string>
+    <string name="prefs_category_general">Allgemein</string>
+    <string name="prefs_help">Hilfe</string>
+    <string name="sync_string_files">Dateien</string>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/C:/Users/kenny/Projects/Iluq-Cloud/res/values-ml-rIN/colors.xml -->
+    <eat-comment/>
+    <color name="button_background_color">#BE1E2D</color>
+    <!-- From: file:/C:/Users/kenny/Projects/Iluq-Cloud/res/values-ml-rIN/strings.xml -->
+    <eat-comment/>
+    <string name="actionbar_upload_files">ഫയലുകൾ</string>
+    <string name="empty"/>
+    <string name="sync_string_files">ഫയലുകൾ</string>
+</resources>

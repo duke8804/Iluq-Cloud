@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/C:/Users/kenny/Projects/Iluq-Cloud/res/values-eu-rES/colors.xml -->
+    <eat-comment/>
+    <color name="button_background_color">#BE1E2D</color>
+    <!-- From: file:/C:/Users/kenny/Projects/Iluq-Cloud/res/values-eu-rES/strings.xml -->
+    <eat-comment/>
+    <string name="common_cancel">Ezeztatu</string>
+    <string name="empty"/>
+    <string name="filedetails_download">Deskargatu</string>
+</resources>

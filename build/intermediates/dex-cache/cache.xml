@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\kenny\Projects\Kryptashare\build\intermediates\exploded-aar\Kryptashare\libs@actionbarsherlock_lib\unspecified\classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="417ff92782db71a09a9900025b83d7e9fd3c94f8">
+        <dex dex="C:\Users\kenny\Projects\Kryptashare\build\intermediates\pre-dexed\release\classes-9bbdf7130c05277f345de8fb6f67306dee008764.jar" />
+    </item>
+    <item
+        jar="C:\Users\kenny\.gradle\caches\modules-2\files-2.1\org.apache.jackrabbit\jackrabbit-webdav\2.7.2\c1caa7de02711cbc5769b613f446c3c4d9e78e62\jackrabbit-webdav-2.7.2.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="c1caa7de02711cbc5769b613f446c3c4d9e78e62">
+        <dex dex="C:\Users\kenny\Projects\Kryptashare\build\intermediates\pre-dexed\release\jackrabbit-webdav-2.7.2-90219f8ee621f71a76523b989a2f53fd71872a71.jar" />
+    </item>
+    <item
+        jar="C:\Users\kenny\.gradle\caches\modules-2\files-2.1\com.jakewharton\disklrucache\2.0.2\93b399470e72c0bc8cb52379943b63c9aa586cd8\disklrucache-2.0.2.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="93b399470e72c0bc8cb52379943b63c9aa586cd8">
+        <dex dex="C:\Users\kenny\Projects\Kryptashare\build\intermediates\pre-dexed\release\disklrucache-2.0.2-387ffab0aab91f2460ec6caeafad48c97ed3e144.jar" />
+    </item>
+    <item
+        jar="C:\Users\kenny\Projects\Kryptashare\build\intermediates\exploded-aar\Kryptashare\owncloud-android-library\unspecified\classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="c431a06071b3ee7ca7b53e54ce0e0f1321bc0e8b">
+        <dex dex="C:\Users\kenny\Projects\Kryptashare\build\intermediates\pre-dexed\debug\classes-55021a8d59ed2f02fba0b3ed376dab01a0dff6d0.jar" />
+    </item>
+    <item
+        jar="C:\Users\kenny\Projects\Iluq-Cloud\libs\touch-image-view.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="49a6b2c0e86e2a02d7e9d2edec628459c56a03b8">
+        <dex dex="C:\Users\kenny\Projects\Iluq-Cloud\build\intermediates\pre-dexed\debug\touch-image-view-50788f6c7de8db51fdd0a39fe48408069d98b265.jar" />
+    </item>
+    <item
+        jar="C:\Users\kenny\Projects\Kryptashare\libs\touch-image-view.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="49a6b2c0e86e2a02d7e9d2edec628459c56a03b8">
+        <dex dex="C:\Users\kenny\Projects\Kryptashare\build\intermediates\pre-dexed\release\touch-image-view-78d7b8778142d233437ab0761bf6c31040fc3c78.jar" />
+    </item>
+    <item
+        jar="C:\Users\kenny\Projects\Iluq-Cloud\build\intermediates\exploded-aar\Iluq-Cloud\owncloud-android-library\unspecified\classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="eb1dda5617fca77bfabd0b9bf60956c5739371a5">
+        <dex dex="C:\Users\kenny\Projects\Iluq-Cloud\build\intermediates\pre-dexed\debug\classes-100fdb097202352bc802166fff55b40709a64f42.jar" />
+    </item>
+    <item
+        jar="C:\Users\kenny\.gradle\caches\modules-2\files-2.1\commons-httpclient\commons-httpclient\3.1\964cd74171f427720480efdec40a7c7f6e58426a\commons-httpclient-3.1.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="964cd74171f427720480efdec40a7c7f6e58426a">
+        <dex dex="C:\Users\kenny\Projects\Kryptashare\build\intermediates\pre-dexed\release\commons-httpclient-3.1-798cac3c2ebbd2ac42814d7079c119cd574d6fad.jar" />
+    </item>
+    <item
+        jar="C:\Users\kenny\Projects\android\extras\android\m2repository\com\android\support\support-v4\19.1.0\support-v4-19.1.0.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67">
+        <dex dex="C:\Users\kenny\Projects\Kryptashare\build\intermediates\pre-dexed\release\support-v4-19.1.0-c1e863725819c3aa7e3548f5a88c4b3dd6682f27.jar" />
+    </item>
+    <item
+        jar="C:\Users\kenny\Projects\Iluq-Cloud\build\intermediates\exploded-aar\Iluq-Cloud\libs@actionbarsherlock_lib\unspecified\classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="417ff92782db71a09a9900025b83d7e9fd3c94f8">
+        <dex dex="C:\Users\kenny\Projects\Iluq-Cloud\build\intermediates\pre-dexed\debug\classes-ce4c81519c21a750eca10a7e50dd281ed7f1ecbd.jar" />
+    </item>
+    <item
+        jar="C:\Users\kenny\.gradle\caches\modules-2\files-2.1\commons-codec\commons-codec\1.2\397f4731a9f9b6eb1907e224911c77ea3aa27a8b\commons-codec-1.2.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="397f4731a9f9b6eb1907e224911c77ea3aa27a8b">
+        <dex dex="C:\Users\kenny\Projects\Kryptashare\build\intermediates\pre-dexed\release\commons-codec-1.2-9414ee5dbd2d330d900cef2254d1515032bc3e30.jar" />
+    </item>
+    <item
+        jar="C:\Users\kenny\.gradle\caches\modules-2\files-2.1\org.slf4j\jcl-over-slf4j\1.7.4\b7c1efe9a78b315b6be624e6f6f944788c6be6c0\jcl-over-slf4j-1.7.4.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="b7c1efe9a78b315b6be624e6f6f944788c6be6c0">
+        <dex dex="C:\Users\kenny\Projects\Kryptashare\build\intermediates\pre-dexed\release\jcl-over-slf4j-1.7.4-7935921e0e578da3dcdd6d4d1a42310e02db7440.jar" />
+    </item>
+    <item
+        jar="C:\Users\kenny\.gradle\caches\modules-2\files-2.1\org.slf4j\slf4j-api\1.7.5\6b262da268f8ad9eff941b25503a9198f0a0ac93\slf4j-api-1.7.5.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="6b262da268f8ad9eff941b25503a9198f0a0ac93">
+        <dex dex="C:\Users\kenny\Projects\Kryptashare\build\intermediates\pre-dexed\release\slf4j-api-1.7.5-719f36b336412b8a9caba7f752a0f7cdf5fa8d6e.jar" />
+    </item>
+
+</items>

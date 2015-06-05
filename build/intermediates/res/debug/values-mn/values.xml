@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/C:/Users/kenny/Projects/Iluq-Cloud/res/values-mn/colors.xml -->
+    <eat-comment/>
+    <color name="button_background_color">#BE1E2D</color>
+    <!-- From: file:/C:/Users/kenny/Projects/Iluq-Cloud/res/values-mn/strings.xml -->
+    <eat-comment/>
+    <string name="actionbar_settings">Тохиргоо</string>
+    <string name="actionbar_upload">Байршуулах</string>
+    <string name="actionbar_upload_files">Файлууд</string>
+    <string name="auth_password">Нууц үг</string>
+    <string name="auth_username">Хэрэглэгчийн нэр</string>
+    <string name="common_remove">Устгах</string>
+    <string name="create_account">Аккаунт үүсгэх</string>
+    <string name="empty"/>
+    <string name="prefs_category_general">Ерөнхий</string>
+    <string name="prefs_category_security">Аюулгүй байдал</string>
+    <string name="sync_string_files">Файлууд</string>
+    <string name="uploader_btn_upload_text">Байршуулах</string>
+</resources>

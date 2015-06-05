@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/C:/Users/kenny/Projects/Iluq-Cloud/res/values-sk/colors.xml -->
+    <eat-comment/>
+    <color name="button_background_color">#BE1E2D</color>
+    <!-- From: file:/C:/Users/kenny/Projects/Iluq-Cloud/res/values-sk/strings.xml -->
+    <eat-comment/>
+    <string name="actionbar_settings">Nastavenia</string>
+    <string name="common_cancel">Zrušiť</string>
+    <string name="empty"/>
+    <string name="filedetails_download">Stiahnuť</string>
+    <string name="prefs_category_general">Všeobecné</string>
+</resources>

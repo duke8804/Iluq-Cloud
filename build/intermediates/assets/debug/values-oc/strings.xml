@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+  <string name="actionbar_upload">Amontcarga</string>
+  <string name="actionbar_upload_files">Fichièrs</string>
+  <string name="actionbar_settings">Configuracion</string>
+  <!--TODO re-enable when server-side folder size calculation is available   
+    	<item>Biggest - Smallest</item>-->
+  <string name="prefs_category_general">General</string>
+  <string name="prefs_category_more">Mai d\'aquò</string>
+  <string name="prefs_accounts">Comptes</string>
+  <string name="prefs_manage_accounts">Maneja comptes</string>
+  <string name="prefs_help">Ajuda</string>
+  <string name="auth_username">Nom d\'usancièr</string>
+  <string name="auth_password">Senhal</string>
+  <string name="sync_string_files">Fichièrs</string>
+  <string name="setup_btn_connect">Connecta</string>
+  <string name="uploader_btn_upload_text">Amontcarga</string>
+  <string name="uploader_wrn_no_account_title">Cap de compte trobat</string>
+  <string name="uploader_wrn_no_account_setup_btn_text">Configuracion</string>
+  <string name="uploader_wrn_no_account_quit_btn_text">Quita</string>
+  <string name="uploader_info_uploading">Al amontcargar</string>
+  <string name="file_list_seconds_ago">segonda a</string>
+  <string name="file_list_empty">Pas res dedins. Amontcarga qualquaren</string>
+  <string name="file_list_folder">Dorsièr</string>
+  <string name="file_list_folders">Dorsièrs</string>
+  <string name="file_list_file">fichièr</string>
+  <string name="file_list_files">fichièrs</string>
+  <string name="filedetails_size">Talha :</string>
+  <string name="filedetails_type">Tipe :</string>
+  <string name="filedetails_created">Creat :</string>
+  <string name="filedetails_modified">Modificat :</string>
+  <string name="filedetails_download">Avalcarga</string>
+  <string name="common_yes">Òc</string>
+  <string name="common_no">Non</string>
+  <string name="common_ok">D\'accòrdi</string>
+  <string name="common_cancel_upload"> Anulla l\'amontcargar</string>
+  <string name="common_cancel">Annula</string>
+  <string name="common_error">Error</string>
+  <string name="about_title">A prepaus</string>
+  <string name="change_password">Cambia lo senhal</string>
+  <string name="delete_account">Escafa lo compte</string>
+  <string name="create_account">Crea un compte</string>
+  <string name="upload_chooser_title">Avalcarga dempuèi ...</string>
+  <string name="uploader_upload_in_progress_ticker">Al avalcargar ...</string>
+  <string name="uploader_upload_succeeded_ticker">Capitada d\'avalcargar</string>
+  <string name="common_choose_account">Causís lo compte</string>
+  <string name="pincode_enter_pin_code">Dintras ton PIN d\'App, se te plai</string>
+  <string name="common_rename">Torna nomenar</string>
+  <string name="empty"></string>
+  <string name="prefs_category_accounts">Comptes</string>
+  <string name="folder_picker_choose_button_text">Causís</string>
+</resources>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ownCloud Android client application
+
+  Copyright (C) 2015 ownCloud Inc.
+
+  This program is free software: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License version 2,
+  as published by the Free Software Foundation.
+
+  This program is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+  GNU General Public License for more details.
+
+  You should have received a copy of the GNU General Public License
+  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:paddingLeft="8dp"
+    android:paddingRight="8dp"
+    android:weightSum="1" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="15dp"
+        android:layout_weight="1" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/logTV"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/empty" />
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/deleteLogHistoryButton"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="@string/prefs_log_delete_history_button"
+        android:textColor="#fff"
+        android:background="@color/button_background_color" />
+
+    <Button
+        android:id="@+id/sendLogHistoryButton"
+        android:layout_width="match_parent"
+       android:layout_height="50dp"
+        android:text="@string/log_send_history_button"
+        android:textColor="#fff"
+        android:background="@color/button_background_color" />
+
+</LinearLayout><!-- From: file:/C:/Users/kenny/Projects/Iluq-Cloud/res/layout/log_send_file.xml -->
